@@ -50,7 +50,7 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
-
+				<recoilAmount>8.55</recoilAmount>
 			</li>
 		</verbs>
 		<modExtensions>
@@ -129,7 +129,7 @@
 				<range>44</range>
 				<soundCast>RG_20mm</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<recoilAmount>1.12</recoilAmount>
+				<recoilAmount>1.55</recoilAmount>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -215,6 +215,7 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilAmount>2.22</recoilAmount>
 			</li>
 		</verbs>
 		<modExtensions>

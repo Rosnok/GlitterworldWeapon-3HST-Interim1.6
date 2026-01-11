@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef ParentName="MercenaryGunnerBase">
+		<defName>Mercenary_Minelayer</defName>
+		<label>mercenary mine layer</label>
+		<combatPower>200</combatPower>
+		<weaponTags Inherit="false">
+			<li>3HST_LGIS_Minelayer</li>
+		</weaponTags>
+		<weaponMoney>1000~2000</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.01</techHediffsChance>
+		<initialResistanceRange>6~10</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension" MayRequire="ceteam.combatextended">
+				<primaryMagazineCount>
+					<min>2</min>
+					<max>4</max>
+				</primaryMagazineCount>
+				<forcedSidearm>
+					<sidearmMoney>
+						<min>50</min>
+						<max>100</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>CE_Sidearm_Melee</li>
+					</weaponTags>
+				</forcedSidearm>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>200</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>CE_Sidearm</li>
+						</weaponTags>
+						<magazineCount>
+							<min>2</min>
+							<max>6</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+			<li Class="BillDoorsFramework.PawnKindModExtension_Sidearm">
+				<weaponDef>Gun_Revolver</weaponDef>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+</Defs>

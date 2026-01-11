@@ -33,7 +33,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_FabricationBench</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
 			<!-- Railgun ammo isn't handloaded because it contains no propellant, and the sabots must be precision-machined anyway -->
 		</tradeTags>
 		<thingCategories>
@@ -60,7 +60,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_FabricationBench</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
 			<!-- Railgun ammo isn't handloaded because it contains no propellant, and the sabots must be precision-machined anyway -->
 		</tradeTags>
 		<thingCategories>
@@ -111,7 +111,7 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Projectile_3HST20mmRG_Steel</defName>
 		<label>20mm Railgun shell (Sabot)</label>
 		<thingClass>BillDoorsFramework.PenetratingBulletCE</thingClass>
@@ -153,7 +153,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Projectile_3HST20mmRG_SAPHE</defName>
 		<label>20mm Railgun shell (SAPHE)</label>
 		<thingClass>BillDoorsFramework.PenetratingBulletCE</thingClass>

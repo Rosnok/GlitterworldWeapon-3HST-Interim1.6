@@ -535,7 +535,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Projectile_none</defName>
 		<label>nothing</label>
 		<graphicData>
@@ -551,14 +551,44 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef Name="Base70mmLGIS" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Name="Base70mmLGIS" ParentName="BaseBulletCE" Abstract="true">
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>80</speed>
 			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+
+			<shellingProps>
+				<iconPath>Things/WorldObjects/Munitions/Mortar</iconPath>
+				<tilesPerTick>0.1</tilesPerTick>
+				<range>6</range>
+			</shellingProps>
 		</projectile>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketFlame</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>7</burstCount>
+				<thickness>3</thickness>
+				<cutoffTickRange>25~45</cutoffTickRange>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>2</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmoke</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>1</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+				<cutoffTickRange>45~240</cutoffTickRange>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGIS">
@@ -846,7 +876,7 @@
 	<ThingDef ParentName="Base70mmLGIS"   MayRequire="aoba.fortress.industrial.nucleardawn">
 		<defName>Projectile_70mmLGIS_Nuke</defName>
 		<label>LGIS missile (Nuclear)</label>
-		<thingClass>Fortification.Projectile_ExplosiveByComps</thingClass>
+		<thingClass>Fortification.ProjectileCE_ExplosiveByComps</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket/LGIS_Nuke_projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -858,15 +888,15 @@
 			<armorPenetrationSharp>0</armorPenetrationSharp>
 			<armorPenetrationBlunt>0</armorPenetrationBlunt>
 			<explosionRadius>15.9</explosionRadius>
-			<flyOverhead>true</flyOverhead>
 			<explosionEffect>GiantExplosion</explosionEffect>
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 			<dropsCasings>true</dropsCasings>
 			<casingMoteDefname>Mote_LGIScasingNuke</casingMoteDefname>
 			<casingFilthDefname>Filth_LGIScasingNuke</casingFilthDefname>
 		</projectile>
-		<comps>
-			<li Class="Fortification.CompProperties_ExpolsionWithEvents">
+
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ExpolsionWithEvents">
 				<conditions>
 					<li>
 						<conditionDef>FTND_NuclearFlare</conditionDef>
@@ -900,14 +930,14 @@
 					</li>
 				</conditions>
 			</li>
-			<li Class="Fortification.CompProperties_CompositeExplosion">
+			<li Class="Fortification.ModExtension_CompositeExplosion">
 				<compositeExplosions>
 					<li>
 						<!--核爆心-->
 						<countdown>1</countdown>
 						<radius>5.9</radius>
 						<damamgeDef>BombSuper</damamgeDef>
-						<amount>300</amount>
+						<amount>1000</amount>
 						<armorPenetration>2</armorPenetration>
 						<explosionSound>MortarBomb_Explode</explosionSound>
 					</li>
@@ -936,7 +966,7 @@
 					</li>
 				</compositeExplosions>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGIS">
@@ -1070,7 +1100,7 @@
 
 
 
-	<ThingDef Name="Base70mmLGISIDR" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Name="Base70mmLGISIDR" ParentName="BaseBulletCE" Abstract="true">
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -1081,7 +1111,37 @@
 			<flyOverhead>true</flyOverhead>
 			<gravityFactor>20</gravityFactor>
 			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+
+			<shellingProps>
+				<iconPath>Things/WorldObjects/Munitions/Mortar</iconPath>
+				<tilesPerTick>0.1</tilesPerTick>
+				<range>6</range>
+			</shellingProps>
 		</projectile>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketFlame</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>7</burstCount>
+				<thickness>3</thickness>
+				<cutoffTickRange>50~60</cutoffTickRange>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>2</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmoke</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>1</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+				<cutoffTickRange>60~240</cutoffTickRange>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGISIDR">
@@ -1364,7 +1424,7 @@
 	<ThingDef ParentName="Base70mmLGISIDR"  MayRequire="aoba.fortress.industrial.nucleardawn">
 		<defName>Projectile_70mmLGIS_Nuke_Indirect</defName>
 		<label>LGIS missile (Nuclear)</label>
-		<thingClass>Fortification.Projectile_ExplosiveByComps</thingClass>
+		<thingClass>Fortification.ProjectileCE_ExplosiveByComps</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket/LGIS_Nuke_projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1380,8 +1440,8 @@
 			<casingMoteDefname>Mote_LGIScasingNuke</casingMoteDefname>
 			<casingFilthDefname>Filth_LGIScasingNuke</casingFilthDefname>
 		</projectile>
-		<comps>
-			<li Class="Fortification.CompProperties_ExpolsionWithEvents">
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ExpolsionWithEvents">
 				<conditions>
 					<li>
 						<conditionDef>FTND_NuclearFlare</conditionDef>
@@ -1415,14 +1475,14 @@
 					</li>
 				</conditions>
 			</li>
-			<li Class="Fortification.CompProperties_CompositeExplosion">
+			<li Class="Fortification.ModExtension_CompositeExplosion">
 				<compositeExplosions>
 					<li>
 						<!--核爆心-->
 						<countdown>1</countdown>
 						<radius>5.9</radius>
 						<damamgeDef>BombSuper</damamgeDef>
-						<amount>300</amount>
+						<amount>1000</amount>
 						<armorPenetration>2</armorPenetration>
 						<explosionSound>MortarBomb_Explode</explosionSound>
 					</li>
@@ -1451,7 +1511,7 @@
 					</li>
 				</compositeExplosions>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGISIDR">

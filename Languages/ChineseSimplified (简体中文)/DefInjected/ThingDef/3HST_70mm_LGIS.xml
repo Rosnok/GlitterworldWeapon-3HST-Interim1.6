@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: LGIS missile (Cluster) -->
+  <Projectile_70mmLGIS_Cluster.label>3HST制 70mm LGIS 导弹 (集束)</Projectile_70mmLGIS_Cluster.label>
+  
+  <!-- EN: LGIS missile (Confetti) -->
+  <Projectile_70mmLGIS_Confetti.label>3HST制 70mm LGIS 导弹 (礼花)</Projectile_70mmLGIS_Confetti.label>
+  
+  <!-- EN: LGIS missile (deadlife) -->
+  <Projectile_70mmLGIS_DeadLife.label>3HST制 70mm LGIS 导弹 (死灵)</Projectile_70mmLGIS_DeadLife.label>
+  
+  <!-- EN: LGIS missile (disruptor) -->
+  <Projectile_70mmLGIS_Disruptor.label>3HST制 70mm LGIS 导弹 (眩光)</Projectile_70mmLGIS_Disruptor.label>
+  
+  <!-- EN: LGIS missile (EMP) -->
+  <Projectile_70mmLGIS_EMP.label>3HST制 70mm LGIS 导弹 (EMP)</Projectile_70mmLGIS_EMP.label>
+  
+  <!-- EN: LGIS missile (Foam) -->
+  <Projectile_70mmLGIS_Firefoam.label>3HST制 70mm LGIS 导弹 (灭火)</Projectile_70mmLGIS_Firefoam.label>
+  
+  <!-- EN: LGIS missile (Frag) -->
+  <Projectile_70mmLGIS_Frag.label>3HST制 70mm LGIS 导弹 (破片)</Projectile_70mmLGIS_Frag.label>
+  
+  <!-- EN: LGIS missile (HEAT) -->
+  <Projectile_70mmLGIS_HEAT.label>3HST制 70mm LGIS 导弹 (破甲)</Projectile_70mmLGIS_HEAT.label>
+  
+  <!-- EN: LGIS missile (Holodecoy) -->
+  <Projectile_70mmLGIS_Holodecoy.label>3HST制 70mm LGIS 导弹 (诱饵)</Projectile_70mmLGIS_Holodecoy.label>
+  
+  <!-- EN: LGIS missile (Illumination) -->
+  <Projectile_70mmLGIS_Illumination.label>3HST制 70mm LGIS 导弹 (照明)</Projectile_70mmLGIS_Illumination.label>
+  
+  <!-- EN: LGIS missile (Incendiary) -->
+  <Projectile_70mmLGIS_Incendiary.label>3HST制 70mm LGIS 导弹 (燃烧)</Projectile_70mmLGIS_Incendiary.label>
+  
+  <!-- EN: LGIS missile (Mine layer) -->
+  <Projectile_70mmLGIS_MineLayer.label>3HST制 70mm LGIS 导弹 (布雷)</Projectile_70mmLGIS_MineLayer.label>
+  
+  <!-- EN: LGIS missile (Nuclear) -->
+  <Projectile_70mmLGIS_Nuke.label>3HST制 70mm LGIS 导弹 (核)</Projectile_70mmLGIS_Nuke.label>
+  
+  <!-- EN: LGIS missile (Smoke) -->
+  <Projectile_70mmLGIS_Smoke.label>3HST制 70mm LGIS 导弹 (烟雾)</Projectile_70mmLGIS_Smoke.label>
+  
+  <!-- EN: LGIS missile (Thermobaric) -->
+  <Projectile_70mmLGIS_Thermobaric.label>3HST制 70mm LGIS 导弹 (温压)</Projectile_70mmLGIS_Thermobaric.label>
+  
+  <!-- EN: LGIS missile (Toxic) -->
+  <Projectile_70mmLGIS_Toxic.label>3HST制 70mm LGIS 导弹 (毒气)</Projectile_70mmLGIS_Toxic.label>
+  
+</LanguageData>

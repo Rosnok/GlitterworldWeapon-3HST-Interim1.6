@@ -1,0 +1,151 @@
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BDsGlitterworldFaction3HSTCE.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BDsGlitterworldFaction3HSTCE.pdb
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\Assembly-CSharp.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\CombatExtended.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UI.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\NAudio.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\NVorbis.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\ISharpZipLib.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\0CombatExtendedLoader.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UNETModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TextCoreModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.CopyComplete
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.pdb
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\0Harmony.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkCE.pdb
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkUtilities.pdb
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkCE.dll
+C:\Users\User\Documents\Tencent Files\2578665390\FileRecv\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BDsGlitterworldFaction3HSTCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BDsGlitterworldFaction3HSTCE.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AudioModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\Unity.TextMeshPro.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\ISharpZipLib.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\0CombatExtendedLoader.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClothModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VFXModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VideoModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VRModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.GridModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UNETModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.TextCoreModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.WindModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.ARModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.XRModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\UnityEngine.InputModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkCE.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\bin\Debug\BillDoorsFrameworkUtilities.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\Source\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GlitterworldWeapon-3HST\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.pdb
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.dll
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\1.5\CombatExtended\Assemblies\BDsGlitterworldFaction3HSTCE.pdb
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.AssemblyReference.cache
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.csproj.CoreCompileInputs.cache
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.dll
+C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\BDsGlitterworldFaction3HSTCE\obj\Debug\BDsGlitterworldFaction3HSTCE.pdb

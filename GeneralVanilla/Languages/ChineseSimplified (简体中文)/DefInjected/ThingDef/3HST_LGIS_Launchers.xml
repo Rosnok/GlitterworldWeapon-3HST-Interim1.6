@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: dual LGIS missile launcher -->
+	<Gun_DualLGIS_ID.label>双联LGIS发射器</Gun_DualLGIS_ID.label>
+	<!-- EN: A multiple rocket launcher capable of holding and firing 2 LGIS missiles.\n\nThis simple launcher does not come with rail accelerators and solely depends on the propellant charge in the casing to fire. While range remain unchanged, this launcher allows deploying LGIS missiles in ready to use emplacements at important positions. -->
+	<Gun_DualLGIS_ID.description>一个手动控制的双联装LGIS发射筒。虽然没有使用磁轨加速所以无法提高射程，但是它可以用来确保在战略位置有两发随时可以使用的LGIS导弹。</Gun_DualLGIS_ID.description>
+	<!-- EN: dual LGIS missile launcher -->
+	<Gun_DualLGIS_ID.verbs.Verb_ShootNotUnderRoof.label>双联LGIS发射器</Gun_DualLGIS_ID.verbs.Verb_ShootNotUnderRoof.label>
+
+	<!-- EN: hexa LGIS missile launcher -->
+	<Gun_HLGIS.label>六连LGIS发射器</Gun_HLGIS.label>
+	<!-- EN: A multiple rocket launcher capable of holding and firing 6 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range. -->
+	<Gun_HLGIS.description>一个能容纳6枚LGIS导弹的自动炮塔。内置的电磁加速轨道略微增加了导弹的射程。</Gun_HLGIS.description>
+	<!-- EN: hexa LGIS missile launcher -->
+	<Gun_HLGIS.verbs.Verb_ShootNotUnderRoof.label>TODO</Gun_HLGIS.verbs.Verb_ShootNotUnderRoof.label>
+
+	<!-- EN: multiple LGIS missile launcher -->
+	<Gun_MLGIS.label>多连LGIS发射器</Gun_MLGIS.label>
+	<!-- EN: A multiple rocket launcher capable of holding and firing 27 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range. -->
+	<Gun_MLGIS.description>一个能容纳27枚LGIS导弹的速射自动炮塔。内置的电磁加速轨道略微增加了导弹的射程。</Gun_MLGIS.description>
+	<!-- EN: multiple LGIS missile launcher -->
+	<Gun_MLGIS.verbs.Verb_ShootNotUnderRoof.label>TODO</Gun_MLGIS.verbs.Verb_ShootNotUnderRoof.label>
+
+	<!-- EN: dual LGIS turret -->
+	<Turret_DualLGIS_ID.label>双联LGIS发射器</Turret_DualLGIS_ID.label>
+	<!-- EN: A multiple rocket launcher capable of holding and firing 2 LGIS missiles.\n\nThis simple launcher does not come with rail accelerators and solely depends on the propellant charge in the casing to fire. While range remain unchanged, this launcher allows deploying LGIS missiles in ready to use emplacements at important positions. -->
+	<Turret_DualLGIS_ID.description>一个手动控制的双联装LGIS发射筒。虽然没有使用磁轨加速所以无法提高射程，但是它可以用来确保在战略位置有两发随时可以使用的LGIS导弹。</Turret_DualLGIS_ID.description>
+
+	<!-- EN: Hexa-LGIS Launcher -->
+	<Turret_HLGIS.label>六连LGIS发射器</Turret_HLGIS.label>
+	<!-- EN: A multiple LGIS missile turret with it's targeting system set to direct fire. -->
+	<Turret_HLGIS.description>一个能容纳6枚LGIS导弹的自动炮塔。内置的电磁加速轨道略微增加了导弹的射程。</Turret_HLGIS.description>
+	<!-- EN: Recharge power consumption -->
+	<Turret_HLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_HLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower>
+	<!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nThe built-in capacitors of the rail-accelerator need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+	<Turret_HLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_HLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+	<!-- EN: Rail durability -->
+	<Turret_HLGIS.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_HLGIS.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until accelerator rail change -->
+	<Turret_HLGIS.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_HLGIS.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new accelerator rail -->
+	<Turret_HLGIS.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_HLGIS.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Multiple LGIS Launcher -->
+	<Turret_MLGIS.label>多连LGIS发射器</Turret_MLGIS.label>
+	<!-- EN: A multiple LGIS missile turret with it's targeting system set to direct fire. -->
+	<Turret_MLGIS.description>一个能容纳27枚LGIS导弹的速射自动炮塔。内置的电磁加速轨道略微增加了导弹的射程。</Turret_MLGIS.description>
+	<!-- EN: Recharge power consumption -->
+	<Turret_MLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_MLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower>
+	<!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nThe built-in capacitors of the rail-accelerator need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+	<Turret_MLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+		该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd
+	</Turret_MLGIS.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+	<!-- EN: Rail durability -->
+	<Turret_MLGIS.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_MLGIS.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until accelerator rail change -->
+	<Turret_MLGIS.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_MLGIS.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new accelerator rail -->
+	<Turret_MLGIS.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_MLGIS.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

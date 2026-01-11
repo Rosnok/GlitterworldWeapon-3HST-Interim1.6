@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 制作ECS剑刃 -->
+  <Make_Melee_3HST_ECSBlade.label>制作ECS剑刃</Make_Melee_3HST_ECSBlade.label>
+  <!-- EN: 制作ECS剑刃。 -->
+  <Make_Melee_3HST_ECSBlade.description>制作ECS剑刃。</Make_Melee_3HST_ECSBlade.description>
+  <!-- EN: 正在制作ECS剑刃。 -->
+  <Make_Melee_3HST_ECSBlade.jobString>正在制作ECS剑刃。</Make_Melee_3HST_ECSBlade.jobString>
+  
+</LanguageData>

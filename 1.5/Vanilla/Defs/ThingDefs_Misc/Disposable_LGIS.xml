@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--=====================Disposable LGIS Launchers ===================-->
+	<ThingDef Name="BaseDisposableLGIS" Abstract="True">
+		<soundInteract>Interact_Rifle</soundInteract>
+		<category>Item</category>
+		<thingClass>BillDoorsFramework.ThingWithHeldGraphic</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<stackLimit>10</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<storedConceptLearnOpportunity>BDGW_LGIS</storedConceptLearnOpportunity>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+
+		<graphicData>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<AccuracyTouch>0.2</AccuracyTouch>
+			<AccuracyShort>0.5</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.7</AccuracyLong>
+			<Mass>2.5</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+			<RangedWeapon_Cooldown>2.85</RangedWeapon_Cooldown>
+		</statBases>
+
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<techLevel>Spacer</techLevel>
+
+		<thingCategories>
+			<li>Gun3HSTDisposable</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>SingleUseWeapon</li>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+			<li>Ranged</li>
+		</weaponClasses>
+
+		<weaponTags>
+			<li>CE_AI_AOE</li>
+			<li>3HST_Weapons</li>
+		</weaponTags>
+
+		<generateCommonality>0.6</generateCommonality>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_LGIS</li>
+				</concepts>
+			</li>
+		</comps>
+
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+				<appliesInPrimaryMode>false</appliesInPrimaryMode>
+				<generateSidearm>true</generateSidearm>
+				<oneUseTryFindNewWeapon>true</oneUseTryFindNewWeapon>
+			</li>
+			<li Class="BillDoorsFramework.ModExtension_Description">
+				<postpend>Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher.</postpend>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--===================Direct launchers/ammo=============-->
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_heat</defName>
+		<label>HEAT LGIS tube</label>
+		<description>This missile will deal a large amount of damage with high armor penetration in a single tile.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_HEAT</projectileWhenLoaded>
+		<generateCommonality>1.5</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/heat</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_HEAT</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>0.01</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_HEAT_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>3</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0</chance>
+			</li>
+			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+				<appliesInPrimaryMode>false</appliesInPrimaryMode>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_thermobaric</defName>
+		<label>thermobaric LGIS tube</label>
+		<description>This missile will cause a large explosion with low armor penetration, and a low chance of starting fire.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Thermobaric</projectileWhenLoaded>
+		<generateCommonality>0.25</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/thermobaric</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>350</MarketValue>
+		</statBases>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Thermobaric</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Thermobaric_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+				<appliesInPrimaryMode>false</appliesInPrimaryMode>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_frag</defName>
+		<label>frag LGIS tube</label>
+		<description>This missile will cause a small explosion and send large amount of fragments around.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Frag</projectileWhenLoaded>
+		<generateCommonality>1</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/frag</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Frag</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Frag_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+				<appliesInPrimaryMode>false</appliesInPrimaryMode>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_cluster</defName>
+		<label>cluster LGIS tube</label>
+		<description>This missile will send large amounts of small bomblets around.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Cluster</projectileWhenLoaded>
+		<generateCommonality>0.3</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/cluster</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Cluster</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Cluster_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>1</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_incendiary</defName>
+		<label>incendiary LGIS tube</label>
+		<description>This missile will start fire across a large area.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Incendiary</projectileWhenLoaded>
+		<generateCommonality>0.35</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/incendiary</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Incendiary</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Incendiary_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_smoke</defName>
+		<label>smoke LGIS tube</label>
+		<description>This missile will spread a large cloud of smoke.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Smoke</projectileWhenLoaded>
+		<generateCommonality>0.1</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/smoke</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Smoke</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Smoke_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_firefoam</defName>
+		<label>firefoam LGIS tube</label>
+		<description>This missile will spread fire retardant foam over a large area.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Firefoam</projectileWhenLoaded>
+		<generateCommonality>0.5</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/firefoam</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Firefoam</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Firefoam_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_EMP</defName>
+		<label>EMP LGIS tube</label>
+		<description>This missile will cause an EMP explosion that disrupts electronics.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_EMP</projectileWhenLoaded>
+		<generateCommonality>0.35</generateCommonality>
+		<weaponTags>
+			<li>3HST_LGIS_Disposable_Adv</li>
+		</weaponTags>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/EMP</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_EMP</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_EMP_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS" MayRequire="aoba.fortress.industrial.nucleardawn">
+		<defName>Gun_3HST_LGIS_Nuke</defName>
+		<label>Nuclear LGIS tube</label>
+		<description>This missile is armed with a nuclear warhead that will cause huge damage in a small area, light fire over a medium area and stun people in a large radius.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Nuke</projectileWhenLoaded>
+		<generateCommonality>0.05</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/nuke</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Nuke</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<forcedMissRadius>3</forcedMissRadius>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Nuke_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.9</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_Illumination</defName>
+		<label>illumination LGIS tube</label>
+		<description>This missile will light a illumination flare that lasts 3 hours above impact location.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Illumination</projectileWhenLoaded>
+		<generateCommonality>0.1</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/illumination</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Illumination</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Illumination_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>1</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS" MayRequire="3HSTltd.landmines">
+		<defName>Gun_3HST_LGIS_Minelayer</defName>
+		<label>minelayer LGIS tube</label>
+		<description>This missile will spread several ADMs around impact point.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_MineLayer</projectileWhenLoaded>
+		<generateCommonality>0.5</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/minelayer</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+			<li>3HST_LGIS_Minelayer</li>
+		</weaponTags>
+		<descriptionHyperlinks>
+			<ThingDef>Trap_AerialDeployedMine</ThingDef>
+		</descriptionHyperlinks>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_MineLayer</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_MineLayer_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_Mines</li>
+				</concepts>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>1</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS">
+		<defName>Gun_3HST_LGIS_Holodecoy</defName>
+		<label>holodecoy LGIS tube</label>
+		<description>This missile will deploy a decoy that lasts 6 hours at impact point.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Holodecoy</projectileWhenLoaded>
+		<generateCommonality>0.2</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/holodecoy</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Holodecoy</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Holodecoy_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS"  MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Gun_3HST_LGIS_Tox</defName>
+		<label>toxic LGIS tube</label>
+		<description>This missile will continuously spread toxic gas to surronding area.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Toxic</projectileWhenLoaded>
+		<generateCommonality>0.3</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/toxic</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>3HST_LGIS_Disposable_Adv</li>
+			<li>GunSingleUse</li>
+			<li>HeavyTox</li>
+			<li>GrenadeTox</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Toxic</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Toxic_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>0.5</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS"  MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Gun_3HST_LGIS_DeadLife</defName>
+		<label>deadLife LGIS tube</label>
+		<description>This missile will continuously spread deadlife dust to surronding area.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_DeadLife</projectileWhenLoaded>
+		<generateCommonality>0</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/deadLife</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_DeadLife</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_DeadLife_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>1</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDisposableLGIS"  MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Gun_3HST_LGIS_DisruptorFlare</defName>
+		<label>disruptor LGIS tube</label>
+		<description>This missile will light a bioferrite disruptor flare that lasts 4 hours above impact location.</description>
+		<projectileWhenLoaded>Projectile_70mmLGIS_Disruptor</projectileWhenLoaded>
+		<generateCommonality>0</generateCommonality>
+		<graphicData>
+			<texPath>Things/Weapons/Disposable_LGIS/bioFeFlare</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+				<defaultProjectile>Projectile_70mmLGIS_Disruptor</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<warmupTime>3.4</warmupTime>
+				<burstShotCount />
+				<range>45</range>
+				<minRange>10</minRange>
+				<forcedMissRadius>3</forcedMissRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_SecondaryVerb">
+				<verbProps>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofOneUse</verbClass>
+					<defaultProjectile>Projectile_70mmLGIS_Disruptor_Indirect</defaultProjectile>
+					<hasStandardCommand>true</hasStandardCommand>
+					<forcedMissRadius>7</forcedMissRadius>
+					<warmupTime>6.4</warmupTime>
+					<range>60</range>
+					<minRange>20</minRange>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>5</muzzleFlashScale>
+					<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+					<requireLineOfSight>false</requireLineOfSight>
+				</verbProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="BillDoorsFramework.ModExtension_LGISdualModeNPCpatch">
+				<chance>1</chance>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<RecipeDef Name="LGISRecipeBase" Abstract="true">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>10000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<recipeUsers>
+			<li>TableMachining</li>
+		</recipeUsers>
+		<conceptLearned>BDGW_LGIS</conceptLearned>
+		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISCluster</defName>
+		<label>make cluster LGIS tube x5</label>
+		<description>Craft 5 cluster LGIS tubes.</description>
+		<jobString>Making cluster LGIS tubes.</jobString>
+		<workAmount>26000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_cluster>5</Gun_3HST_LGIS_cluster>
+		</products>
+		<researchPrerequisite>Research_3HST_ADV_LGIS</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase" MayRequire="3HSTltd.landmines">
+		<defName>MakeDLGISMineLayer</defName>
+		<label>make minelayer LGIS tube x5</label>
+		<description>Craft 5 minelayer LGIS tubes.</description>
+		<jobString>Making minelayer LGIS tubes.</jobString>
+		<workAmount>14000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_Minelayer>5</Gun_3HST_LGIS_Minelayer>
+		</products>
+		<researchPrerequisites>
+			<li>Research_3HST_ADV_LGIS</li>
+			<li>IEDs</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISDecoy</defName>
+		<label>make holodecoy LGIS tube x5</label>
+		<description>Craft 5 holodecoy LGIS tubes.</description>
+		<jobString>Making holodecoy LGIS tubes.</jobString>
+		<workAmount>18000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_Holodecoy>5</Gun_3HST_LGIS_Holodecoy>
+		</products>
+		<researchPrerequisite>Research_3HST_ADV_LGIS</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISthermobaric</defName>
+		<label>make thermobaric LGIS tube x5</label>
+		<description>Craft 5 thermobaric LGIS tubes.</description>
+		<jobString>Making thermobaric LGIS tubes.</jobString>
+		<workAmount>15000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_thermobaric>5</Gun_3HST_LGIS_thermobaric>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISfrag</defName>
+		<label>make frag LGIS tube x5</label>
+		<description>Craft 5 frag LGIS tubes.</description>
+		<jobString>Making frag LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_frag>5</Gun_3HST_LGIS_frag>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISHEAT</defName>
+		<label>make HEAT LGIS tube x5</label>
+		<description>Craft 5 HEAT LGIS tubes.</description>
+		<jobString>Making frag HEAT tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_heat>5</Gun_3HST_LGIS_heat>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISincendiary</defName>
+		<label>make incendiary LGIS tube x5</label>
+		<description>Craft 5 incendiary LGIS tubes.</description>
+		<jobString>Making incendiary LGIS tubes.</jobString>
+		<workAmount>12000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_incendiary>5</Gun_3HST_LGIS_incendiary>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISsmoke</defName>
+		<label>make smoke LGIS tube x5</label>
+		<description>Craft 5 smoke LGIS tubes.</description>
+		<jobString>Making smoke LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_smoke>5</Gun_3HST_LGIS_smoke>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>SmokepopBelt</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISfirefoam</defName>
+		<label>make firefoam LGIS tube x5</label>
+		<description>Craft 5 firefoam LGIS tubes.</description>
+		<jobString>Making firefoam LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_firefoam>5</Gun_3HST_LGIS_firefoam>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISemp</defName>
+		<label>make EMP LGIS tube x5</label>
+		<description>Craft 5 EMP LGIS tubes.</description>
+		<jobString>Making EMP LGIS tubes.</jobString>
+		<workAmount>15000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_EMP>5</Gun_3HST_LGIS_EMP>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase">
+		<defName>MakeDLGISillumination</defName>
+		<label>make illumination LGIS tube x5</label>
+		<description>Craft 5 illumination LGIS tubes.</description>
+		<jobString>Making illumination LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_Illumination>5</Gun_3HST_LGIS_Illumination>
+		</products>
+		<researchPrerequisite>Mortars</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase" MayRequire="aoba.fortress.industrial.nucleardawn">
+		<defName>MakeDLGISnuke</defName>
+		<label>make nuclear LGIS tube x5</label>
+		<description>Craft 5 nuclear LGIS tubes.</description>
+		<jobString>Making nuclear LGIS tubes.</jobString>
+		<workAmount>20000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FT_EnrichedUranium</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+				<li>FT_EnrichedUranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_Nuke>5</Gun_3HST_LGIS_Nuke>
+		</products>
+		<researchPrerequisites>
+			<li>Research_3HST_ADV_LGIS</li>
+			<li>FT_NuclearDawn</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>MakeDLGIStoxic</defName>
+		<label>make toxic LGIS tube x5</label>
+		<description>Craft 5 toxic LGIS tubes.</description>
+		<jobString>Making toxic LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_Tox>5</Gun_3HST_LGIS_Tox>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ToxGas</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>MakeDLGISdeadlife</defName>
+		<label>make deadlife LGIS tube x5</label>
+		<description>Craft 5 deadlife LGIS tubes.</description>
+		<jobString>Making deadlife LGIS tubes.</jobString>
+		<workAmount>12000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bioferrite</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Shard</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Bioferrite</li>
+				<li>Shard</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_DeadLife>5</Gun_3HST_LGIS_DeadLife>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>DeadlifeDust</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LGISRecipeBase" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>MakeDLGISdisruptor</defName>
+		<label>make disruptor LGIS tube x5</label>
+		<description>Craft 5 disruptor LGIS tubes.</description>
+		<jobString>Making disruptor LGIS tubes.</jobString>
+		<workAmount>9000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bioferrite</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Bioferrite</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_3HST_LGIS_DisruptorFlare>5</Gun_3HST_LGIS_DisruptorFlare>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>DisruptorFlares</li>
+		</researchPrerequisites>
+	</RecipeDef>
+</Defs>

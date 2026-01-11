@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Advanced LGIS missile -->
+  <Research_3HST_ADV_LGIS.label>先进LGIS导弹</Research_3HST_ADV_LGIS.label>
+  <!-- EN: Craft experimental, advanced yet more costy LGIS missiles. -->
+  <Research_3HST_ADV_LGIS.description>解锁更为昂贵，更为先进，或许还有附带伤害的实验性LGIS导弹。</Research_3HST_ADV_LGIS.description>
+  <!-- EN:
+    <li>subject->advanced LGIS missiles</li>
+    <li>subject->experimental LGIS missiles</li>
+    <li>subject_story->experimented on the modularity and versatility of standard LGIS [thruster] for local military</li>
+    <li>thruster->thruster</li>
+    <li>thruster->propulsion module</li>
+    <li>thruster->rocket engine</li>
+    <li>subject_story->superglued a boomrat onto a LGIS [platform], invalidating its warranty in the process</li>
+    <li>subject_story->delivered [warhead] via [lot_of] LGIS [platform]</li>
+    <li>warhead->tox gas</li>
+    <li>warhead->propaganda paper</li>
+    <li>warhead->anti-grain warhead</li>
+    <li>warhead->boomrat</li>
+    <li>warhead->fecal waste</li>
+    <li>lot_of->the omnipresent</li>
+    <li>lot_of->excess</li>
+    <li>lot_of->surplus</li>
+    <li>platform->platform</li>
+    <li>platform->launchers</li>
+    <li>platform->missiles</li>
+    <li>subject_gerund->improving LGIS missile warhead</li>
+  -->
+  <Research_3HST_ADV_LGIS.generalRules.rulesStrings>
+    <li>subject->先进LGIS导弹</li>
+    <li>subject->实验性LGIS导弹</li>
+    <li>subject_story->为当地军方评估通用LGIS[thruster]的任务灵活性</li>
+    <li>thruster->推进器</li>
+    <li>thruster->推进模块</li>
+    <li>thruster->火箭发动机</li>
+    <li>subject_story->用502把一只爆炸鼠黏在了LGIS[platform]上, 并且显而易见的放弃了保修资格</li>
+    <li>subject_story->用[lot_of]LGIS[platform]发射了大量[warhead]</li>
+    <li>warhead->毒气</li>
+    <li>warhead->宣传传单</li>
+    <li>warhead->反粒子弹头</li>
+    <li>warhead->爆炸鼠</li>
+    <li>warhead->生物废料</li>
+    <li>lot_of->几乎无处不在的</li>
+    <li>lot_of->剩余的</li>
+    <li>lot_of->过剩的</li>
+    <li>platform->武器系统</li>
+    <li>platform->发射器</li>
+    <li>platform->导弹</li>
+    <li>subject_gerund->改进LGIS导弹弹头</li>
+  </Research_3HST_ADV_LGIS.generalRules.rulesStrings>
+  
+  <!-- EN: 3HST railguns -->
+  <Research_3HST_Railgun.label>3HST制磁轨炮</Research_3HST_Railgun.label>
+  <!-- EN: Allows production of 3HST-designed railguns, weapons that trade barrel life and damage for penetration. -->
+  <Research_3HST_Railgun.description>解锁3HST制磁轨武器，一种低速重弹磁轨，牺牲了枪管寿命和伤害换取穿甲能力的武器。</Research_3HST_Railgun.description>
+  <!-- EN:
+    <li>subject->railguns</li>
+    <li>subject->railguns of 3HST standard</li>
+    <li>subject_story->refurbished a buried cache of railguns [cache_story] and sold them for a great fortune</li>
+    <li>cache_story->from a forgotten war</li>
+    <li>cache_story->from an ancient war</li>
+    <li>cache_story->left behind by pirates</li>
+    <li>cache_story->near a cargo ship crash site</li>
+    <li>subject_story->restored the remaining [ship_weapon] of a [ship_fate] [faction] [ship]</li>
+    <li>faction->3HST</li>
+    <li>faction->imperial</li>
+    <li>ship->warship</li>
+    <li>ship->corvette</li>
+    <li>ship->frigate</li>
+    <li>ship->battleship</li>
+    <li>ship_fate->crashed</li>
+    <li>ship_fate->downed</li>
+    <li>ship_fate->crash landed</li>
+    <li>ship_fate->abandoned</li>
+    <li>ship_weapon->main railgun</li>
+    <li>ship_weapon->railguns</li>
+    <li>ship_weapon->rail turret</li>
+    <li>ship_weapon->coaxial railgun</li>
+    <li>subject_story->assembled salvaged railgun parts into a weapon to fight [armored_enemies]</li>
+    <li>armored_enemies->pirates in power armor</li>
+    <li>armored_enemies->imperial cataphacts</li>
+    <li>armored_enemies->mechanoid centipedes</li>
+    <li>subject_gerund->manufacturing railguns</li>
+  -->
+  <Research_3HST_Railgun.generalRules.rulesStrings>
+    <li>subject->[prefix][railgun]</li>
+    <li>prefix(p=3)-></li>
+    <li>prefix->3HST标准的</li>
+    <li>prefix->3HST制式</li>
+    <li>prefix->3HST制</li>
+    <li>railgun->磁轨步枪</li>
+    <li>railgun->磁轨炮</li>
+    <li>railgun->磁轨武器</li>
+    <li>subject_story->把一堆[cache_story][subject]翻新然后卖了个好价钱</li>
+    <li>cache_story->从古老的战争中遗留下来的</li>
+    <li>cache_story->太空海盗藏匿的</li>
+    <li>cache_story->坠毁的货船货舱里的</li>
+    <li>subject_story->修复了一艘[ship_fate][faction][ship]的[ship_weapon]</li>
+    <li>faction->3HST</li>
+    <li>faction->帝国</li>
+    <li>ship->战舰</li>
+    <li>ship->护卫舰</li>
+    <li>ship->驱逐舰</li>
+    <li>ship->战列舰</li>
+    <li>ship_fate->坠毁的</li>
+    <li>ship_fate->被击沉的</li>
+    <li>ship_fate->废弃的</li>
+    <li>ship_weapon->主磁轨炮</li>
+    <li>ship_weapon->磁轨炮</li>
+    <li>ship_weapon->磁轨炮塔</li>
+    <li>ship_weapon->同轴磁轨炮</li>
+    <li>subject_story->把[railgun]零件组装成一把可堪一用的武器用来对抗[armored_enemies]</li>
+    <li>armored_enemies->身着动力甲的海盗</li>
+    <li>armored_enemies->帝国甲胄骑士</li>
+    <li>armored_enemies->机械蜈蚣</li>
+    <li>subject_gerund->生产[railgun]</li>
+    <li>subject_gerund->设计[railgun]</li>
+    <li>subject_gerund->制造[railgun]</li>
+  </Research_3HST_Railgun.generalRules.rulesStrings>
+  
+  <!-- EN: 3HST EMA rails -->
+  <Research_3HST_Railgun_Components.label>3HST磁轨部件</Research_3HST_Railgun_Components.label>
+  <!-- EN: Allows production of advanced electromagnetic accelerators, an essential component if you want to keep your railguns firing. -->
+  <Research_3HST_Railgun_Components.description>解锁3HST制磁轨武器所使用的电磁加速轨道的制作。</Research_3HST_Railgun_Components.description>
+  <!-- EN:
+    <li>subject->accelerator rails</li>
+    <li>subject_story->made a new rail when [ANYPAWN_possessive] gun's rail failed</li>
+    <li>subject_story->sold the knowledge to the empire, which was troubled by its aging railgun arsenal</li>
+    <li>subject_story->sued by 3HST for thieft of intellectual property</li>
+    <li>subject_gerund->manufacturing accelerator rails</li>
+    <li>subject_gerund->protecting rail from ablation</li>
+    <li>subject_gerund->lowering rail's electric resistance</li>
+  -->
+  <Research_3HST_Railgun_Components.generalRules.rulesStrings>
+    <li>subject->电磁加速轨道</li>
+    <li>subject_story->在[ANYPAWN_possessive]的防身武器的加速轨道失效的时候临时制作了一个替代品</li>
+    <li>subject_story->把相关技术卖给受日渐老化的磁轨武器库存困扰的帝国</li>
+    <li>subject_story->以侵犯知识产权被3HST有限公司告上法庭</li>
+    <li>subject_gerund->生产电磁加速轨道</li>
+    <li>subject_gerund->提高轨道耐磨性能</li>
+    <li>subject_gerund->降低加速轨道电阻</li>
+  </Research_3HST_Railgun_Components.generalRules.rulesStrings>
+  
+  <!-- EN: 3HST Scatterailguns -->
+  <Research_3HST_Scatterailgun.label>3HST制霰射磁轨</Research_3HST_Scatterailgun.label>
+  <!-- EN: Allows production of scatterailguns, high caliber low power railguns designed to fire buckshot and grenades. -->
+  <Research_3HST_Scatterailgun.description>解锁霰射磁轨，一种用于发射霰弹和榴弹的大口径低功率磁轨武器。</Research_3HST_Scatterailgun.description>
+  <!-- EN:
+    <li>subject->scatterailguns</li>
+    <li>subject_story->restored [ANYPAWN_possessive] grandfather's beloved war trophy, a pump action scatterailgun</li>
+    <li>subject_story->hired to renovate civil war era IFVs and their twin barrel heavy scatterailgun</li>
+    <li>subject_story->revived the design of scatterailguns, which was no longer manufactured by 3HST since the end of the war</li>
+    <li>subject_gerund->crafting scatterailguns</li>
+  -->
+  <Research_3HST_Scatterailgun.generalRules.rulesStrings>
+    <li>subject->霰射磁轨</li>
+    <li>subject_story->复原了[ANYPAWN_possessive]祖父最爱的战争纪念品, 一把泵动霰射磁轨</li>
+    <li>subject_story->受聘维护老旧的装备有双联重型霰射磁轨主炮的内战时期步战车</li>
+    <li>subject_story->重启了3HST早已停止生产的霰射磁轨的生产</li>
+    <li>subject_gerund->制造霰射磁轨</li>
+  </Research_3HST_Scatterailgun.generalRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cluster LGIS tube -->
+  <Gun_3HST_LGIS_cluster.label>集束 LGIS发射筒</Gun_3HST_LGIS_cluster.label>
+  <!-- EN: An advanced cluster missile that carries large amounts of small bomblets. Both modes will aim 10 meters higher, and uses 10 meter height fuse. Direct mode will distribute bomblets in an forward facing 90 degree arc. -->
+  <Gun_3HST_LGIS_cluster.description>携带和释放大量小炸弹的先进导弹。两种模式都使用10米高度引信，且会自动按此调整瞄准角度。直射模式会以向前90度的扇形散播炸弹。</Gun_3HST_LGIS_cluster.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_cluster.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_cluster.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_cluster.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_cluster.tools.stock.label>枪托</Gun_3HST_LGIS_cluster.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_cluster.tools.barrel.label>枪管</Gun_3HST_LGIS_cluster.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_cluster.tools.muzzle.label>枪口</Gun_3HST_LGIS_cluster.tools.muzzle.label>
+  
+  <!-- EN: confetti LGIS tube -->
+  <Gun_3HST_LGIS_confetti.label>礼花 LGIS发射筒</Gun_3HST_LGIS_confetti.label>
+  <!-- EN: A missile loaded with confetti, was used in imperial celebrations and parades until a noble get stuck in the head by the missile's engine debris. Both mods works on 10 meter fuse and aiming will adjust accordingly. -->
+  <Gun_3HST_LGIS_confetti.description>装有彩纸而不是预制破片的导弹，曾被用在帝国的各种仪式和庆典上，直到一位贵族被LGIS的推进器残骸爆头。两种模式都使用10米高度引信，且会自动按此调整瞄准角度。</Gun_3HST_LGIS_confetti.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_confetti.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_confetti.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_confetti.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_confetti.tools.stock.label>枪托</Gun_3HST_LGIS_confetti.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_confetti.tools.barrel.label>枪管</Gun_3HST_LGIS_confetti.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_confetti.tools.muzzle.label>枪口</Gun_3HST_LGIS_confetti.tools.muzzle.label>
+  
+  <!-- EN: deadLife LGIS tube -->
+  <Gun_3HST_LGIS_DeadLife.label>死灵 LGIS发射筒</Gun_3HST_LGIS_DeadLife.label>
+  <!-- EN: A deadlife missile that remains on ground for a length of time, releasing deadlife dust. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_DeadLife.description>落地后保持插在地里的状态并且持续散布死灵尘的导弹。两种模式都使用碰炸引信。</Gun_3HST_LGIS_DeadLife.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_DeadLife.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_DeadLife.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_DeadLife.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_DeadLife.tools.stock.label>枪托</Gun_3HST_LGIS_DeadLife.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_DeadLife.tools.barrel.label>枪管</Gun_3HST_LGIS_DeadLife.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_DeadLife.tools.muzzle.label>枪口</Gun_3HST_LGIS_DeadLife.tools.muzzle.label>
+  
+  <!-- EN: disruptor LGIS tube -->
+  <Gun_3HST_LGIS_DisruptorFlare.label>眩光 LGIS发射筒</Gun_3HST_LGIS_DisruptorFlare.label>
+  <!-- EN: A illumination missile retrofitted with a bioferrite disruptor flare. Both modes uses 10 meter height fuse and will adjust aiming accordingly. -->
+  <Gun_3HST_LGIS_DisruptorFlare.description>弹头被替换成活铁的照明弹，两种模式都使用10米高度引信，且会自动按此调整瞄准角度。</Gun_3HST_LGIS_DisruptorFlare.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_DisruptorFlare.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_DisruptorFlare.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_DisruptorFlare.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_DisruptorFlare.tools.stock.label>枪托</Gun_3HST_LGIS_DisruptorFlare.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_DisruptorFlare.tools.barrel.label>枪管</Gun_3HST_LGIS_DisruptorFlare.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_DisruptorFlare.tools.muzzle.label>枪口</Gun_3HST_LGIS_DisruptorFlare.tools.muzzle.label>
+  
+  <!-- EN: EMP LGIS tube -->
+  <Gun_3HST_LGIS_EMP.label>EMP LGIS发射筒</Gun_3HST_LGIS_EMP.label>
+  <!-- EN: A common EMP missile. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_EMP.description>普通的EMP导弹，两种模式都使用碰炸引信。</Gun_3HST_LGIS_EMP.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_EMP.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_EMP.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_EMP.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_EMP.tools.stock.label>枪托</Gun_3HST_LGIS_EMP.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_EMP.tools.barrel.label>枪管</Gun_3HST_LGIS_EMP.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_EMP.tools.muzzle.label>枪口</Gun_3HST_LGIS_EMP.tools.muzzle.label>
+  
+  <!-- EN: firefoam LGIS tube -->
+  <Gun_3HST_LGIS_firefoam.label>灭火 LGIS发射筒</Gun_3HST_LGIS_firefoam.label>
+  <!-- EN: A common firefoam missile. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_firefoam.description>普通的灭火导弹，两种模式都使用碰炸引信。</Gun_3HST_LGIS_firefoam.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_firefoam.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_firefoam.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_firefoam.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_firefoam.tools.stock.label>枪托</Gun_3HST_LGIS_firefoam.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_firefoam.tools.barrel.label>枪管</Gun_3HST_LGIS_firefoam.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_firefoam.tools.muzzle.label>枪口</Gun_3HST_LGIS_firefoam.tools.muzzle.label>
+  
+  <!-- EN: frag LGIS tube -->
+  <Gun_3HST_LGIS_frag.label>破片 LGIS发射筒</Gun_3HST_LGIS_frag.label>
+  <!-- EN: A common frag missile with huge amounts of small fragments. Direct fire mode works with an impact fuse, and indirect mode has a 1.7 meter height fuse. -->
+  <Gun_3HST_LGIS_frag.description>普通的破片导弹，有着更多的小破片。直射模式使用碰炸引信，曲射模式使用1.7米高度引信。</Gun_3HST_LGIS_frag.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_frag.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_frag.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_frag.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_frag.tools.stock.label>枪托</Gun_3HST_LGIS_frag.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_frag.tools.barrel.label>枪管</Gun_3HST_LGIS_frag.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_frag.tools.muzzle.label>枪口</Gun_3HST_LGIS_frag.tools.muzzle.label>
+  
+  <!-- EN: HEAT LGIS tube -->
+  <Gun_3HST_LGIS_heat.label>破甲 LGIS发射筒</Gun_3HST_LGIS_heat.label>
+  <!-- EN: A common HEAT missile, spacer equivalent of M72 LAW. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_heat.description>普通的破甲导弹，太空版M72 LAW。两种模式都使用碰炸引信。</Gun_3HST_LGIS_heat.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_heat.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_heat.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_heat.modExtensions.1.postpend>
+  <!-- EN: 普通的破甲导弹，太空版M72 LAW。两种模式都使用碰炸引信。 -->
+  <Gun_3HST_LGIS_heat.oldDescription>TODO</Gun_3HST_LGIS_heat.oldDescription>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_heat.tools.stock.label>枪托</Gun_3HST_LGIS_heat.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_heat.tools.barrel.label>枪管</Gun_3HST_LGIS_heat.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_heat.tools.muzzle.label>枪口</Gun_3HST_LGIS_heat.tools.muzzle.label>
+  
+  <!-- EN: holodecoy LGIS tube -->
+  <Gun_3HST_LGIS_Holodecoy.label>诱饵 LGIS发射筒</Gun_3HST_LGIS_Holodecoy.label>
+  <!-- EN: An advanced missile that can deploy a holographic decoy which can attract attention. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_Holodecoy.description>能够释放一个全息诱饵吸引敌人注意力的先进导弹。两种模式都使用碰炸引信。</Gun_3HST_LGIS_Holodecoy.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_Holodecoy.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_Holodecoy.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_Holodecoy.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_Holodecoy.tools.stock.label>枪托</Gun_3HST_LGIS_Holodecoy.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_Holodecoy.tools.barrel.label>枪管</Gun_3HST_LGIS_Holodecoy.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_Holodecoy.tools.muzzle.label>枪口</Gun_3HST_LGIS_Holodecoy.tools.muzzle.label>
+  
+  <!-- EN: illumination LGIS tube -->
+  <Gun_3HST_LGIS_Illumination.label>照明 LGIS发射筒</Gun_3HST_LGIS_Illumination.label>
+  <!-- EN: A illumination missile that can light up a large area for 3 hours. Both modes uses 10 meter height fuse and will adjust aiming accordingly. -->
+  <Gun_3HST_LGIS_Illumination.description>能够持续3小时照亮大范围地面的照明弹。两种模式都使用10米高度引信，且会自动按此调整瞄准角度。</Gun_3HST_LGIS_Illumination.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_Illumination.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_Illumination.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_Illumination.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_Illumination.tools.stock.label>枪托</Gun_3HST_LGIS_Illumination.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_Illumination.tools.barrel.label>枪管</Gun_3HST_LGIS_Illumination.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_Illumination.tools.muzzle.label>枪口</Gun_3HST_LGIS_Illumination.tools.muzzle.label>
+  
+  <!-- EN: incendiary LGIS tube -->
+  <Gun_3HST_LGIS_incendiary.label>燃烧 LGIS发射筒</Gun_3HST_LGIS_incendiary.label>
+  <!-- EN: A common incendiary missile, spacer equivalent of M202 Flash. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_incendiary.description>普通的燃烧弹，太空版本的M202 Flash。两种模式都使用碰炸引信。</Gun_3HST_LGIS_incendiary.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_incendiary.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_incendiary.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_incendiary.modExtensions.1.postpend>
+  <!-- EN: 普通的燃烧弹，太空版本的M202 Flash。两种模式都使用碰炸引信。 -->
+  <Gun_3HST_LGIS_incendiary.oldDescription>TODO</Gun_3HST_LGIS_incendiary.oldDescription>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_incendiary.tools.stock.label>枪托</Gun_3HST_LGIS_incendiary.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_incendiary.tools.barrel.label>枪管</Gun_3HST_LGIS_incendiary.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_incendiary.tools.muzzle.label>枪口</Gun_3HST_LGIS_incendiary.tools.muzzle.label>
+  
+  <!-- EN: minelayer LGIS tube -->
+  <Gun_3HST_LGIS_Minelayer.label>布雷 LGIS发射筒</Gun_3HST_LGIS_Minelayer.label>
+  <!-- EN: An advanced minelayer missile that disintegrates mid air and releases 5 ADM landmines. Both modes uses 10 meter height fuse, aiming will be adjusted accordingly. Direct mode will distribute landmines in an forward facing 90 degree arc. -->
+  <Gun_3HST_LGIS_Minelayer.description>在半空解体释放5枚ADM地雷的先进导弹。两种模式都使用10米高度引信，且会自动按此调整瞄准角度。直射模式会向前方90度范围的扇形播撒地雷。</Gun_3HST_LGIS_Minelayer.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_Minelayer.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_Minelayer.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_Minelayer.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_Minelayer.tools.stock.label>枪托</Gun_3HST_LGIS_Minelayer.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_Minelayer.tools.barrel.label>枪管</Gun_3HST_LGIS_Minelayer.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_Minelayer.tools.muzzle.label>枪口</Gun_3HST_LGIS_Minelayer.tools.muzzle.label>
+  
+  <!-- EN: Nuclear LGIS tube -->
+  <Gun_3HST_LGIS_Nuke.label>核 LGIS发射筒</Gun_3HST_LGIS_Nuke.label>
+  <!-- EN: A LGIS missile with its warhead replaced with a Nara Industries compact nuclear device. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_Nuke.description>弹头被替换成奈良工业紧凑核装置的LGIS导弹，你有点太极端了。两种模式都使用碰炸引信。</Gun_3HST_LGIS_Nuke.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_Nuke.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_Nuke.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_Nuke.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_Nuke.tools.stock.label>枪托</Gun_3HST_LGIS_Nuke.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_Nuke.tools.barrel.label>枪管</Gun_3HST_LGIS_Nuke.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_Nuke.tools.muzzle.label>枪口</Gun_3HST_LGIS_Nuke.tools.muzzle.label>
+  
+  <!-- EN: smoke LGIS tube -->
+  <Gun_3HST_LGIS_smoke.label>烟雾 LGIS发射筒</Gun_3HST_LGIS_smoke.label>
+  <!-- EN: A common smoke missile. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_smoke.description>普通的烟雾导弹，两种模式都使用碰炸引信。</Gun_3HST_LGIS_smoke.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_smoke.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_smoke.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_smoke.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_smoke.tools.stock.label>枪托</Gun_3HST_LGIS_smoke.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_smoke.tools.barrel.label>枪管</Gun_3HST_LGIS_smoke.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_smoke.tools.muzzle.label>枪口</Gun_3HST_LGIS_smoke.tools.muzzle.label>
+  
+  <!-- EN: thermobaric LGIS tube -->
+  <Gun_3HST_LGIS_thermobaric.label>温压 LGIS发射筒</Gun_3HST_LGIS_thermobaric.label>
+  <!-- EN: A common thermobaric missile that directly damages things with shockwave. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_thermobaric.description>普通的温压导弹，两种模式都使用碰炸引信。</Gun_3HST_LGIS_thermobaric.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_thermobaric.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_thermobaric.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_thermobaric.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_thermobaric.tools.stock.label>枪托</Gun_3HST_LGIS_thermobaric.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_thermobaric.tools.barrel.label>枪管</Gun_3HST_LGIS_thermobaric.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_thermobaric.tools.muzzle.label>枪口</Gun_3HST_LGIS_thermobaric.tools.muzzle.label>
+  
+  <!-- EN: toxic LGIS tube -->
+  <Gun_3HST_LGIS_Tox.label>毒气 LGIS发射筒</Gun_3HST_LGIS_Tox.label>
+  <!-- EN: A tox gas missile that remains on ground for a length of time, releasing toxic gas. 3HST limited cooperation denied the accusations of producing this variant, claiming to be an illegal aftermarket modification. Both modes uses impact fuse. -->
+  <Gun_3HST_LGIS_Tox.description>落地后保持插在地里的状态并且持续释放毒气的导弹。3HST有限公司否认了对生产和提供这种导弹的指控，并且称之为“二手非法改造”。两种模式都使用碰炸引信。</Gun_3HST_LGIS_Tox.description>
+  <!-- EN: Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode. -->
+  <Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.description>展开瞄具切换成曲射模式，或是收起瞄具切换成直射模式。</Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.description>
+  <!-- EN: direct fire -->
+  <Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.mainWeaponLabel>直射</Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.mainWeaponLabel>
+  <!-- EN: indirect fire -->
+  <Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.secondaryWeaponLabel>曲射</Gun_3HST_LGIS_Tox.comps.CompSecondaryVerbCE.secondaryWeaponLabel>
+  <!-- EN: Short for Laser-Guided Infantry Support, pronounce it as aegis if you can convince yourself "L" sounds like "AE". Minature missile with low-end laser guidance, designed to be carried by infantry or light armored vehicles, capable of beam-riding guidance, inertia guidance or unguided dumb fire. The missile comes in protective packaging that can also be used as a disposable launcher. -->
+  <Gun_3HST_LGIS_Tox.modExtensions.1.postpend>搭载激光制导和惯性制导的小口径导弹，装备于步兵或者轻型战斗载具上。\n该导弹是帝国陆军在第三次内战前数十年委托3HST有限公司设计和生产，用于替代榴弹发射器，单兵火箭筒，迫击炮，车载导弹发射器等一系列武器的“终极解决方案”。但是事实上这个决定是否正确还有待历史证明。\nLGIS导弹出厂时便被装在装备有可折叠简易握把和瞄准装置的，可以作为一次性发射筒发射的保护筒包装内。在用做弹药时，将握把和瞄具折叠便可装入发射器。\n这个发射筒目前处在直射模式，利用一系列陀螺仪，测距仪射击诸元输入，发射器上的简易火控会将数据输入进LGIS导弹的惯性导引头，对目标发起快速，突然，精确的直接打击。但是由于尺寸缘故，LGIS导弹的杀伤力有点差强人意，以至于被戏称为“窜天猴”或者“摔炮”。在战后，一款新的导弹研发出来代替它的位置，而战争期间产能过剩的LGIS弹便被大量下发至担任反恐反海盗清剿叛军任务的二线部队。\n\nLGIS为激光制导-单兵支援的简称，虽然目前并没有激光标记目标的条件。如果你能说服自己“L”和“AE”的读音相近的话，可以将其读作“aegis”。</Gun_3HST_LGIS_Tox.modExtensions.1.postpend>
+  <!-- EN: stock -->
+  <Gun_3HST_LGIS_Tox.tools.stock.label>枪托</Gun_3HST_LGIS_Tox.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_LGIS_Tox.tools.barrel.label>枪管</Gun_3HST_LGIS_Tox.tools.barrel.label>
+  <!-- EN: muzzle -->
+  <Gun_3HST_LGIS_Tox.tools.muzzle.label>枪口</Gun_3HST_LGIS_Tox.tools.muzzle.label>
+  
+</LanguageData>

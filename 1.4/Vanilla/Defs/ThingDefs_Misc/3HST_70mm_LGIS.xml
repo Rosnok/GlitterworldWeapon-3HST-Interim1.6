@@ -25,7 +25,6 @@
 			<damageAmountBase>10</damageAmountBase>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<alwaysFreeIntercept>true</alwaysFreeIntercept>
-			<arcHeightFactor>10</arcHeightFactor>
 		</projectile>
 	</ThingDef>
 
@@ -158,6 +157,30 @@
 		<projectile>
 			<speed>80</speed>
 		</projectile>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketFlame</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>7</burstCount>
+				<thickness>3</thickness>
+				<cutoffTickRange>60~120</cutoffTickRange>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>2</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmoke</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>1</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+				<cutoffTickRange>120~240</cutoffTickRange>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGIS">
@@ -301,8 +324,8 @@
 			<explosionEffect>GiantExplosion</explosionEffect>
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 		</projectile>
-		<comps>
-			<li Class="Fortification.CompProperties_ExpolsionWithEvents">
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ExpolsionWithEvents">
 				<conditions>
 					<li>
 						<conditionDef>FTND_NuclearFlare</conditionDef>
@@ -336,7 +359,7 @@
 					</li>
 				</conditions>
 			</li>
-			<li Class="Fortification.CompProperties_CompositeExplosion">
+			<li Class="Fortification.ModExtension_CompositeExplosion">
 				<compositeExplosions>
 					<li>
 						<!--核爆心-->
@@ -372,7 +395,7 @@
 					</li>
 				</compositeExplosions>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGIS">
@@ -454,14 +477,38 @@
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<thingClass>BillDoorsFramework.Projectile_ExplosiveReturnArcHeight</thingClass>
 		<projectile>
 			<speed>80</speed>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<flyOverhead>true</flyOverhead>
-			<arcHeightFactor>2</arcHeightFactor>
+			<arcHeightFactor>6</arcHeightFactor>
 		</projectile>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketFlame</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>7</burstCount>
+				<thickness>3</thickness>
+				<cutoffTickRange>60~120</cutoffTickRange>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>2</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmoke</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>1</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+				<cutoffTickRange>120~240</cutoffTickRange>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGISIDR">
@@ -604,8 +651,8 @@
 			<explosionEffect>GiantExplosion</explosionEffect>
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 		</projectile>
-		<comps>
-			<li Class="Fortification.CompProperties_ExpolsionWithEvents">
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ExpolsionWithEvents">
 				<conditions>
 					<li>
 						<conditionDef>FTND_NuclearFlare</conditionDef>
@@ -639,7 +686,7 @@
 					</li>
 				</conditions>
 			</li>
-			<li Class="Fortification.CompProperties_CompositeExplosion">
+			<li Class="Fortification.ModExtension_CompositeExplosion">
 				<compositeExplosions>
 					<li>
 						<!--核爆心-->
@@ -675,7 +722,7 @@
 					</li>
 				</compositeExplosions>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="Base70mmLGISIDR">

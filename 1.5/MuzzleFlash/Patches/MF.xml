@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Testing only-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Muzzle Flash</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="Gun_3HST_Light_Machine_Railgun"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+							<def>BDRG_RailgunMF_small</def>
+							<drawSize>(1.2,1.2)</drawSize>
+							<offsets>
+								<li>(0.8,0.05)</li>
+								<li>(0.8,-0.05)</li>
+							</offsets>
+							<isAlternately>true</isAlternately>
+						</li>
+					</value>
+				</li>
+
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="Gun_3HST_5mmDMR"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+							<def>BDRG_RailgunMF_small</def>
+							<drawSize>(1.2,1.2)</drawSize>
+							<offsets>
+								<li>(0.81,-0.05)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="Gun_5mmHMG_TurretManned" or defName="Gun_5mmHMG_TurretAuto"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+							<def>BDRG_RailgunMF_small</def>
+							<drawSize>(1.2,1.2)</drawSize>
+							<offsets>
+								<li>(0.85,0)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="Gun_5mmHMG_TurretQuad"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+							<def>BDRG_RailgunMF_small</def>
+							<drawSize>(1.2,1.2)</drawSize>
+							<offsets>
+								<li>(1,-0.15)</li>
+								<li>(1,0.15)</li>
+								<li>(0.85,-0.23)</li>
+								<li>(0.85,0.23)</li>
+							</offsets>
+							<isAlternately>true</isAlternately>
+						</li>
+					</value>
+				</li>
+
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="Gun_3HST_LGIS_Launcher" or @Name="BaseDisposableLGIS"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+							<def>BDRG_RPG</def>
+							<drawSize>(1.2,1.2)</drawSize>
+							<offsets>
+								<li>(-1.8,0.06)</li>
+							</offsets>
+							<isAlternately>true</isAlternately>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

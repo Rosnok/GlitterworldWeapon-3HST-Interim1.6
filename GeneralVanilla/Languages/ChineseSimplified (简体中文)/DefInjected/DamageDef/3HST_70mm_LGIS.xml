@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: HE-AT -->
+  <BDRG_DamageDef_HEAT.label>破甲</BDRG_DamageDef_HEAT.label>
+  <!-- EN: {0} has been shot to death. -->
+  <BDRG_DamageDef_HEAT.deathMessage>{0}被破甲弹射流穿透了。</BDRG_DamageDef_HEAT.deathMessage>
+  
+</LanguageData>

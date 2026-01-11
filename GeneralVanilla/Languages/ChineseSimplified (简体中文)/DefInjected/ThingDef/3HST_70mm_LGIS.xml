@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: LGIS missile (Cluster) -->
+  <BDRG_ClusterMissileAdaptor.label>3HST制 70mm LGIS 导弹 (集束)</BDRG_ClusterMissileAdaptor.label>
+  
+  <!-- EN: fragment -->
+  <BDRG_Fragment.label>破片</BDRG_Fragment.label>
+  
+  <!-- EN: LGIS missile (Frag) -->
+  <BDRG_FragMissileAdaptor.label>3HST制 70mm LGIS 导弹 (破片)</BDRG_FragMissileAdaptor.label>
+  
+  <!-- EN: Illumination LGIS -->
+  <Filth_Illumition_LGIS.label>LGIS照明弹</Filth_Illumition_LGIS.label>
+  
+  <!-- EN: Explosive submunition -->
+  <Fragment_ExplosiveSubmunition.label>爆炸性分弹药</Fragment_ExplosiveSubmunition.label>
+  
+  <!-- EN: Taunt -->
+  <Gun_Holodecoy.label>嘲讽</Gun_Holodecoy.label>
+  <!-- EN: A built-in loud speaker that attracts enemy aggression. -->
+  <Gun_Holodecoy.description>你追我，你追到我，我就让你嘿嘿嘿~</Gun_Holodecoy.description>
+  <!-- EN: Taunt -->
+  <Gun_Holodecoy.verbs.Verb_Shoot.label>TODO</Gun_Holodecoy.verbs.Verb_Shoot.label>
+  
+  <!-- EN: LGIS missile (Cluster) -->
+  <Projectile_70mmLGIS_Cluster.label>3HST制 70mm LGIS 导弹 (集束)</Projectile_70mmLGIS_Cluster.label>
+  
+  <!-- EN: LGIS missile (Cluster) -->
+  <Projectile_70mmLGIS_Cluster_Indirect.label>3HST制 70mm LGIS 导弹 (集束)</Projectile_70mmLGIS_Cluster_Indirect.label>
+  
+  <!-- EN: LGIS missile (deadlife) -->
+  <Projectile_70mmLGIS_DeadLife.label>3HST制 70mm LGIS 导弹 (死灵)</Projectile_70mmLGIS_DeadLife.label>
+  
+  <!-- EN: LGIS missile (deadlife) -->
+  <Projectile_70mmLGIS_DeadLife_Indirect.label>3HST制 70mm LGIS 导弹 (死灵)</Projectile_70mmLGIS_DeadLife_Indirect.label>
+  
+  <!-- EN: LGIS missile (disruptor) -->
+  <Projectile_70mmLGIS_Disruptor.label>3HST制 70mm LGIS 导弹 (眩光)</Projectile_70mmLGIS_Disruptor.label>
+  
+  <!-- EN: LGIS missile (disruptor) -->
+  <Projectile_70mmLGIS_Disruptor_Indirect.label>3HST制 70mm LGIS 导弹 (眩光)</Projectile_70mmLGIS_Disruptor_Indirect.label>
+  
+  <!-- EN: LGIS missile (EMP) -->
+  <Projectile_70mmLGIS_EMP.label>3HST制 70mm LGIS 导弹 (EMP)</Projectile_70mmLGIS_EMP.label>
+  
+  <!-- EN: LGIS missile (EMP) -->
+  <Projectile_70mmLGIS_EMP_Indirect.label>3HST制 70mm LGIS 导弹 (EMP)</Projectile_70mmLGIS_EMP_Indirect.label>
+  
+  <!-- EN: LGIS missile (Foam) -->
+  <Projectile_70mmLGIS_Firefoam.label>3HST制 70mm LGIS 导弹 (灭火)</Projectile_70mmLGIS_Firefoam.label>
+  
+  <!-- EN: LGIS missile (Foam) -->
+  <Projectile_70mmLGIS_Firefoam_Indirect.label>3HST制 70mm LGIS 导弹 (灭火)</Projectile_70mmLGIS_Firefoam_Indirect.label>
+  
+  <!-- EN: LGIS missile (Frag) -->
+  <Projectile_70mmLGIS_Frag.label>3HST制 70mm LGIS 导弹 (破片)</Projectile_70mmLGIS_Frag.label>
+  
+  <!-- EN: LGIS missile (Frag) -->
+  <Projectile_70mmLGIS_Frag_Indirect.label>3HST制 70mm LGIS 导弹 (破片)</Projectile_70mmLGIS_Frag_Indirect.label>
+  
+  <!-- EN: LGIS missile (HEAT) -->
+  <Projectile_70mmLGIS_HEAT.label>3HST制 70mm LGIS 导弹 (破甲)</Projectile_70mmLGIS_HEAT.label>
+  
+  <!-- EN: LGIS missile (HEAT) -->
+  <Projectile_70mmLGIS_HEAT_Indirect.label>3HST制 70mm LGIS 导弹 (破甲)</Projectile_70mmLGIS_HEAT_Indirect.label>
+  
+  <!-- EN: LGIS missile (Holodecoy) -->
+  <Projectile_70mmLGIS_Holodecoy.label>3HST制 70mm LGIS 导弹 (诱饵)</Projectile_70mmLGIS_Holodecoy.label>
+  
+  <!-- EN: LGIS missile (Holodecoy) -->
+  <Projectile_70mmLGIS_Holodecoy_Indirect.label>3HST制 70mm LGIS 导弹 (诱饵)</Projectile_70mmLGIS_Holodecoy_Indirect.label>
+  
+  <!-- EN: LGIS missile (Illumination) -->
+  <Projectile_70mmLGIS_Illumination.label>3HST制 70mm LGIS 导弹 (照明)</Projectile_70mmLGIS_Illumination.label>
+  
+  <!-- EN: LGIS missile (Illumination) -->
+  <Projectile_70mmLGIS_Illumination_Indirect.label>3HST制 70mm LGIS 导弹 (照明)</Projectile_70mmLGIS_Illumination_Indirect.label>
+  
+  <!-- EN: LGIS missile (Incendiary) -->
+  <Projectile_70mmLGIS_Incendiary.label>3HST制 70mm LGIS 导弹 (燃烧)</Projectile_70mmLGIS_Incendiary.label>
+  
+  <!-- EN: LGIS missile (Incendiary) -->
+  <Projectile_70mmLGIS_Incendiary_Indirect.label>3HST制 70mm LGIS 导弹 (燃烧)</Projectile_70mmLGIS_Incendiary_Indirect.label>
+  
+  <!-- EN: LGIS missile (Mine layer) -->
+  <Projectile_70mmLGIS_MineLayer.label>TODO</Projectile_70mmLGIS_MineLayer.label>
+  
+  <!-- EN: LGIS missile (Mine layer) -->
+  <Projectile_70mmLGIS_MineLayer_Indirect.label>TODO</Projectile_70mmLGIS_MineLayer_Indirect.label>
+  
+  <!-- EN: LGIS missile (Nuclear) -->
+  <Projectile_70mmLGIS_Nuke.label>TODO</Projectile_70mmLGIS_Nuke.label>
+  
+  <!-- EN: LGIS missile (Nuclear) -->
+  <Projectile_70mmLGIS_Nuke_Indirect.label>TODO</Projectile_70mmLGIS_Nuke_Indirect.label>
+  
+  <!-- EN: LGIS missile (Smoke) -->
+  <Projectile_70mmLGIS_Smoke.label>3HST制 70mm LGIS 导弹 (烟雾)</Projectile_70mmLGIS_Smoke.label>
+  
+  <!-- EN: LGIS missile (Smoke) -->
+  <Projectile_70mmLGIS_Smoke_Indirect.label>3HST制 70mm LGIS 导弹 (烟雾)</Projectile_70mmLGIS_Smoke_Indirect.label>
+  
+  <!-- EN: LGIS missile (Thermobaric) -->
+  <Projectile_70mmLGIS_Thermobaric.label>3HST制 70mm LGIS 导弹 (温压)</Projectile_70mmLGIS_Thermobaric.label>
+  
+  <!-- EN: LGIS missile (Thermobaric) -->
+  <Projectile_70mmLGIS_Thermobaric_Indirect.label>3HST制 70mm LGIS 导弹 (温压)</Projectile_70mmLGIS_Thermobaric_Indirect.label>
+  
+  <!-- EN: LGIS missile (Toxic) -->
+  <Projectile_70mmLGIS_Toxic.label>3HST制 70mm LGIS 导弹 (毒气)</Projectile_70mmLGIS_Toxic.label>
+  
+  <!-- EN: LGIS missile (Toxic) -->
+  <Projectile_70mmLGIS_Toxic_Indirect.label>3HST制 70mm LGIS 导弹 (毒气)</Projectile_70mmLGIS_Toxic_Indirect.label>
+  
+  <!-- EN: nothing -->
+  <Projectile_none.label>这里啥都没有</Projectile_none.label>
+  
+  <!-- EN: holographic decoy -->
+  <Turret_Holodecoy.label>全息诱饵</Turret_Holodecoy.label>
+  <!-- EN: A holographic decoy that attracts enemy aggression. It's internal battery lasts for 6 hours. -->
+  <Turret_Holodecoy.description>一个能吸引敌人注意的全息诱饵。内置电池能维持其运转六个小时。</Turret_Holodecoy.description>
+  <!-- EN: Power off in -->
+  <Turret_Holodecoy.comps.CompDestroyAfterDelay.countdownLabel>剩余电量：</Turret_Holodecoy.comps.CompDestroyAfterDelay.countdownLabel>
+  
+</LanguageData>

@@ -11,12 +11,32 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
+		<li IfModNotActive="CETeam.CombatExtended">GeneralVanilla</li>
+		<li IfModActive="CETeam.CombatExtended">GeneralCombatExtended</li>
+
 		<li IfModNotActive="CETeam.CombatExtended">1.4/Vanilla</li>
 		<li IfModActive="CETeam.CombatExtended">1.4/CombatExtended</li>
+
 		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
+
 		<li IfModActive="IssacZhuang.PLA.Vehicle">1.4/Vanilla/PLAST</li>
 		<li IfModActive="issaczhuang.muzzleflash">1.4/MuzzleFlash</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModNotActive="CETeam.CombatExtended">GeneralVanilla</li>
+		<li IfModActive="CETeam.CombatExtended">GeneralCombatExtended</li>
 
+		<li IfModNotActive="CETeam.CombatExtended">1.5/Vanilla</li>
+		<li IfModActive="CETeam.CombatExtended">1.5/CombatExtended</li>
+
+		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">Anomaly</li>
+
+		<li IfModActive="IssacZhuang.PLA.Vehicle">1.5/Vanilla/PLAST</li>
+		<li IfModActive="issaczhuang.muzzleflash">1.5/MuzzleFlash</li>
+	</v1.5>
 </loadFolders>

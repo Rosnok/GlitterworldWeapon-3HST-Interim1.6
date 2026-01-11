@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef>
+		<defName>LGIS_Deadlife_Releasing</defName>
+		<label>LGIS missile (deadlife)</label>
+		<selectable>false</selectable>
+		<tickerType>Normal</tickerType>
+		<thingClass>ThingWithComps</thingClass>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>Things/Projectile/Rocket/LGIS_deadLife_projectile_landed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_ReleaseGas">
+				<gasType>DeadlifeDust</gasType>
+				<cellsToFill>20</cellsToFill>
+				<durationSeconds>10</durationSeconds>
+				<effecterReleasing>DeadlifeReleasing</effecterReleasing>
+			</li>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>600</delayTicks>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

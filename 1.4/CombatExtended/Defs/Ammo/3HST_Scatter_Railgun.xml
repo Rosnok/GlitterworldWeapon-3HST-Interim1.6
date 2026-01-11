@@ -82,7 +82,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_FabricationBench</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
 		</tradeTags>
 		<thingCategories>
 			<li>AmmoCategory_ScatterRG</li>
@@ -195,7 +195,7 @@
 	</ThingDef>
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Projectile_ScatterRG_Heavy</defName>
 		<label>2x32.5mm Scatterailgun Sabot</label>
 		<thingClass>BillDoorsFramework.PenetratingBulletCE</thingClass>
@@ -228,7 +228,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef Name="BaseScatterailgunExplosive" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Name="BaseScatterailgunExplosive" ParentName="BaseBulletCE" Abstract="true">
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>

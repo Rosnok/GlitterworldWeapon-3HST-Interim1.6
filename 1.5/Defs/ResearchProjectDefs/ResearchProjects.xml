@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Research_3HST_Railgun</defName>
+		<label>3HST railguns</label>
+		<description>Allows production of 3HST-designed railguns with relatively low projectile velocity and heavy projectile weight, that trade barrel life and damage for penetration.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<hiddenPrerequisites>
+			<li>ChargedShot</li>
+		</hiddenPrerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>5.3</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->railguns</li>
+				<li>subject->railguns of 3HST standard</li>
+
+				<li>subject_story->reverse engineered a buried cache of railguns [cache_story]</li>
+
+				<li>cache_story->from a forgotten war</li>
+				<li>cache_story->from an ancient war</li>
+				<li>cache_story->left behind by pirates</li>
+				<li>cache_story->near a cargo ship crash site</li>
+
+				<li>subject_story->studied the remaining [ship_weapon] of a [ship_fate] [faction] [ship]</li>
+
+				<li>faction->3HST</li>
+				<li>faction->imperial</li>
+
+				<li>ship->warship</li>
+				<li>ship->corvette</li>
+				<li>ship->frigate</li>
+				<li>ship->battleship</li>
+
+				<li>ship_fate->crashed</li>
+				<li>ship_fate->downed</li>
+				<li>ship_fate->crash landed</li>
+				<li>ship_fate->abandoned</li>
+
+				<li>ship_weapon->main railgun</li>
+				<li>ship_weapon->railguns</li>
+				<li>ship_weapon->rail turret</li>
+				<li>ship_weapon->coaxial railgun</li>
+
+				<li>subject_story->assembled salvaged railgun parts into a weapon to fight [armored_enemies]</li>
+
+				<li>armored_enemies->pirates in power armor</li>
+				<li>armored_enemies->imperial cataphacts</li>
+				<li>armored_enemies->mechanoid centipedes</li>
+
+				<li>subject_gerund->manufacturing railguns</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Research_3HST_Railgun_Components</defName>
+		<label>3HST EMA rails</label>
+		<description>Allows production of advanced electromagnetic accelerators, an essential component if you want to keep your railguns firing.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Research_3HST_Railgun</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>5.3</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->accelerator rails</li>
+
+				<li>subject_story->analyzed a sample of accelerator rail at sub-molecular level, unraveled the trade secret that [faction] has been keeping</li>
+
+				<li>subject_story->secretly kept note of accelerator rail's unique alloy structure while working in [site]</li>
+
+				<li>faction->3HST</li>
+				<li>faction->empire</li>
+
+				<li>site->a 3HST [site_noun]</li>
+				<li>site->an imperial [site_noun]</li>
+
+				<li>site_noun->factory</li>
+				<li>site_noun->research facility</li>
+				<li>site_noun->databank</li>
+				<li>site_noun->armory</li>
+
+				<li>subject_story->[steal_verb] [site] and obtained infomation about the specialized manufacturing process of accelerator rails</li>
+
+				<li>steal_verb->infiltrated</li>
+				<li>steal_verb->hacked into</li>
+				<li>steal_verb->assaulted</li>
+
+				<li>subject_gerund->manufacturing accelerator rails</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Research_3HST_ADV_LGIS</defName>
+		<label>Advanced LGIS missile</label>
+		<description>Craft experimental, advanced yet more costy LGIS missiles.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Mortars</li>
+			<li MayRequire="ceteam.combatextended">CE_AdvancedLaunchers</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>13</researchViewX>
+		<researchViewY>5.7</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->advanced LGIS missiles</li>
+				<li>subject->experimental LGIS missiles</li>
+
+				<li>subject_story->wondered what else can be attached to a standard LGIS [thruster]</li>
+
+				<li>thruster->thruster</li>
+				<li>thruster->propulsion module</li>
+				<li>thruster->rocket engine</li>
+
+				<li>subject_story->superglued a boomrat onto a LGIS missile, invalidating its warranty in the process</li>
+				<li>subject_story->wanted extra variety of warheads to be delivered via LGIS platform</li>
+
+				<li>subject_gerund->manufacturing accelerator rails</li>
+				<li>subject_gerund->protecting rail from ablation</li>
+				<li>subject_gerund->lowering rail's electric resistance</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Research_3HST_Scatterailgun</defName>
+		<label>3HST Scatterailguns</label>
+		<description>Allows production of scatterailguns, high caliber low power railguns designed to fire buckshot and grenades.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Research_3HST_Railgun</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>5.8</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->scatterailguns</li>
+
+				<li>subject_story->restored [ANYPAWN_possessive] grandfather's beloved war trophy, a pump action scatterailgun</li>
+
+				<li>subject_story->hired to renovate civil war era IFVs and their twin barrel heavy scatterailgun</li>
+
+				<li>subject_story->revived the design of scatterailguns, which was no longer manufactured by 3HST since the end of the war</li>
+
+				<li>subject_gerund->crafting scatterailguns</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+</Defs>

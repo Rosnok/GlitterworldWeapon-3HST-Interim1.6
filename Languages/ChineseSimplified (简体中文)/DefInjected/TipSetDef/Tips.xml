@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Railgun rails are short-lived, remember to bring spares or you may end up in a gun fight with a malfunctional railgun. -->
+  <BDGW_Tips.tips.0>电磁加速轨道只有几十到几百发的寿命，千万记得带上备件！你也不想在火拼中途发现磁轨失效吧？</BDGW_Tips.tips.0>
+  <!-- EN: Most if not all LGIS launchers are capable of switching between direct fire and indirect, mortar-like fire. Use this at your advantage! -->
+  <BDGW_Tips.tips.1>几乎所有LGIS发射器都能切换直射和曲射，好好利用这个功能！也别忘了你的敌人也会用它们曲射！</BDGW_Tips.tips.1>
+  <!-- EN: Scatterailguns introduce heavy rail degradation, with an estimated rail life of 125 rounds per standard rail package. Mind your rail durability when using them! -->
+  <BDGW_Tips.tips.2>霰射磁轨对磁轨的损耗严重，每个轨道的寿命仅有125发！</BDGW_Tips.tips.2>
+  <!-- EN: Railgun turrets consume extra power after firing to charge it's capacitors. Be aware of your battery charge if you intend to use them! -->
+  <BDGW_Tips.tips.3>磁轨炮塔在发射后需要耗电补充自己的电容器，</BDGW_Tips.tips.3>
+  <!-- EN: Only half damage will be dealt if a railgun overpenetrates! -->
+  <BDGW_Tips.tips.4>磁轨武器在过穿的时候仅会造成部分伤害</BDGW_Tips.tips.4>
+  <!-- EN: 3HST limited was notorious for making unreadable initial letter abbreviations, including 3HST it self. -->
+  <BDGW_Tips.tips.5>3HST有限公司因为各种毫无可读性的首字母简写而臭名昭著——包括3HST本身！</BDGW_Tips.tips.5>
+  
+</LanguageData>

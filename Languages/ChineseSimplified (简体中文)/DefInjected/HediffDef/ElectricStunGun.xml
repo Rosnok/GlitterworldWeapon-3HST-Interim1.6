@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: electric arc burn -->
+  <ElectricStunBurn.label>电弧烧伤</ElectricStunBurn.label>
+  <!-- EN: A burn. -->
+  <ElectricStunBurn.description>TODO</ElectricStunBurn.description>
+  <!-- EN: burn scar -->
+  <ElectricStunBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ElectricStunBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricStunBurn.injuryProps.destroyedLabel>TODO</ElectricStunBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricStunBurn.injuryProps.destroyedOutLabel>TODO</ElectricStunBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electric arc burn -->
+  <ElectricStunBurn.labelNoun>电弧烧伤伤口。</ElectricStunBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricStunBurn.labelNounPretty>TODO</ElectricStunBurn.labelNounPretty>
+  
+</LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef>
+		<defName>Filth_Illumition_LGIS</defName>
+		<label>Illumination LGIS</label>
+		<thingClass>ThingWithComps</thingClass>
+		<drawerType>MapMeshOnly</drawerType>
+		<category>Filth</category>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<selectable>false</selectable>
+		<graphicData>
+			<texPath>BDF_none</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0</drawSize>
+		</graphicData>
+		<altitudeLayer>Skyfaller</altitudeLayer>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(510,510,414,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<heatPerSecond>50</heatPerSecond>
+				<heatPushMaxTemperature>500</heatPushMaxTemperature>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_Flare">
+				<effecter>Effecter_BDRG_Flare</effecter>
+				<lifeTimeSec>180</lifeTimeSec>
+			</li>
+		</comps>
+		<alwaysHaulable>false</alwaysHaulable>
+		<pathCost>0</pathCost>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--
+  value multiplier:
+  4mm 1/3
+  5mm 1/2
+  9mm 2/3
+  
+  6mm scatter 1/3
+  8mm scatter 1/2
+  
+  shots per rail
+  4mm 1000
+  5mm 500
+  9mm 250
+  
+  20mm 100
+  76mm 10
+  
+  6mm scatter 125
+  8mm scatter 125
+  
+  LGIS 100
+  
+  each weapon has a maximal barrel durability of 1/2 of the cost
+  now 1/1 due to small cal durability nerf
+  -->
+	<DesignatorDropdownGroupDef>
+		<defName>Group_LGIS_Launchers</defName>
+		<label>LGIS launchers</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Group_3HST_AutoRailgunTurret</defName>
+		<label>Stationary automatic railgun turrets</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Group_3HST_MoveableAutoRailgunTurret</defName>
+		<label>Moveable automatic railgun turrets</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Group_3HST_ManualRailgunTurret</defName>
+		<label>Manned railgun turrets</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Group_3HST_AIGS</defName>
+		<label>3HST automatic indirect grenade system</label>
+	</DesignatorDropdownGroupDef>
+
+	<ThingCategoryDef>
+		<defName>Gun3HST</defName>
+		<label>3HST weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>GunInfantry3HST</defName>
+		<label>3HST infantry weapons</label>
+		<parent>Gun3HST</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Gun3HSTDisposable</defName>
+		<label>3HST disposable weapons</label>
+		<parent>GunInfantry3HST</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>GunHeavy3HST</defName>
+		<label>3HST heavy weapons</label>
+		<parent>Gun3HST</parent>
+	</ThingCategoryDef>
+
+	<DamageDef ParentName="Bomb">
+		<defName>DamageDef_Shockwave</defName>
+		<label>shockwave</label>
+		<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+		<deathMessage>{0} has died from impact shockwave.</deathMessage>
+		<buildingDamageFactor>0.2</buildingDamageFactor>
+		<plantDamageFactor>0.2</plantDamageFactor>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.7, 0.7, 0.7)</explosionColorEdge>
+		<soundExplosion>Explosion_Flame</soundExplosion>
+	</DamageDef>
+
+	<DamageDef ParentName="Bullet">
+		<defName>BDRG_HighCalRailgun</defName>
+		<minDamageToFragment>15</minDamageToFragment>
+	</DamageDef>
+
+	<ThingDef Name="Base3HSTGun" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<weaponTags>
+			<li>3HST_Weapons</li>
+			<li>SpacerGun</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Gun3HST</li>
+		</thingCategories>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+				<Intellectual>8</Intellectual>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<techLevel>Spacer</techLevel>
+		<storedConceptLearnOpportunity>BDGW_RailRearm</storedConceptLearnOpportunity>
+	</ThingDef>
+</Defs>

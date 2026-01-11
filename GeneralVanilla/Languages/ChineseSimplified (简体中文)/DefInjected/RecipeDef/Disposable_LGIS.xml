@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: dismaltle minelayer for ADM -->
+	<DismantleLGISminelayer.label>拆解布雷LGIS</DismantleLGISminelayer.label>
+	<!-- EN: Open up a minelayer to retrive the ADM mines inside, but.....why? -->
+	<DismantleLGISminelayer.description>拆开一发布雷LGIS以获取里面的散装ADM，但是这一切值得吗？</DismantleLGISminelayer.description>
+	<!-- EN: Opening minelayer tubes. -->
+	<DismantleLGISminelayer.jobString>正在拆解布雷LGIS</DismantleLGISminelayer.jobString>
+
+	<!-- EN: make cluster tube x5 -->
+	<MakeDLGISCluster.label>制作 集束 LGIS发射筒 x5</MakeDLGISCluster.label>
+	<!-- EN: Craft 5 cluster tubes. -->
+	<MakeDLGISCluster.description>制作 集束 LGIS发射筒 x5。</MakeDLGISCluster.description>
+	<!-- EN: Making cluster tubes. -->
+	<MakeDLGISCluster.jobString>正在制作 集束 LGIS发射筒 x5。</MakeDLGISCluster.jobString>
+
+	<!-- EN: make confetti launcher x5 -->
+	<MakeDLGISconfetti.label>制作 礼花 LGIS发射筒 x5</MakeDLGISconfetti.label>
+	<!-- EN: Craft 5 confetti tubes. -->
+	<MakeDLGISconfetti.description>制作 礼花 LGIS发射筒 x5。</MakeDLGISconfetti.description>
+	<!-- EN: Making confetti tubes. -->
+	<MakeDLGISconfetti.jobString>正在制作 礼花 LGIS发射筒 x5。</MakeDLGISconfetti.jobString>
+
+	<!-- EN: make deadlife tube x5 -->
+	<MakeDLGISdeadlife.label>制作 死灵 LGIS发射筒 x5</MakeDLGISdeadlife.label>
+	<!-- EN: Craft 5 deadlife tubes. -->
+	<MakeDLGISdeadlife.description>制作 死灵 LGIS发射筒 x5。</MakeDLGISdeadlife.description>
+	<!-- EN: Making deadlife tubes. -->
+	<MakeDLGISdeadlife.jobString>正在制作 死灵 LGIS发射筒 x5。</MakeDLGISdeadlife.jobString>
+
+	<!-- EN: make holodecoy tube x5 -->
+	<MakeDLGISDecoy.label>制作 诱饵 LGIS发射筒 x5</MakeDLGISDecoy.label>
+	<!-- EN: Craft 5 holodecoy tubes. -->
+	<MakeDLGISDecoy.description>制作 诱饵 LGIS发射筒 x5。</MakeDLGISDecoy.description>
+	<!-- EN: Making holodecoy tubes. -->
+	<MakeDLGISDecoy.jobString>正在制作 诱饵 LGIS发射筒 x5。</MakeDLGISDecoy.jobString>
+
+	<!-- EN: make disruptor tube x5 -->
+	<MakeDLGISdisruptor.label>制作 眩光 LGIS发射筒 x5</MakeDLGISdisruptor.label>
+	<!-- EN: Craft 5 disruptor tubes. -->
+	<MakeDLGISdisruptor.description>制作 眩光 LGIS发射筒 x5。</MakeDLGISdisruptor.description>
+	<!-- EN: Making disruptor tubes. -->
+	<MakeDLGISdisruptor.jobString>正在制作 眩光 LGIS发射筒 x5。</MakeDLGISdisruptor.jobString>
+
+	<!-- EN: make EMP tube x5 -->
+	<MakeDLGISemp.label>制作 EMP LGIS发射筒 x5</MakeDLGISemp.label>
+	<!-- EN: Craft 5 EMP tubes. -->
+	<MakeDLGISemp.description>制作 EMP LGIS发射筒 x5。</MakeDLGISemp.description>
+	<!-- EN: Making EMP tubes. -->
+	<MakeDLGISemp.jobString>正在制作 EMP LGIS发射筒 x5。</MakeDLGISemp.jobString>
+
+	<!-- EN: make firefoam tube x5 -->
+	<MakeDLGISfirefoam.label>制作 灭火 LGIS发射筒 x5</MakeDLGISfirefoam.label>
+	<!-- EN: Craft 5 firefoam tubes. -->
+	<MakeDLGISfirefoam.description>制作 灭火 LGIS发射筒 x5。</MakeDLGISfirefoam.description>
+	<!-- EN: Making firefoam tubes. -->
+	<MakeDLGISfirefoam.jobString>正在制作 灭火 LGIS发射筒 x5。</MakeDLGISfirefoam.jobString>
+
+	<!-- EN: make frag tube x5 -->
+	<MakeDLGISfrag.label>制作 破片 LGIS发射筒 x5</MakeDLGISfrag.label>
+	<!-- EN: Craft 5 frag tubes. -->
+	<MakeDLGISfrag.description>制作 破片 LGIS发射筒 x5。</MakeDLGISfrag.description>
+	<!-- EN: Making frag tubes. -->
+	<MakeDLGISfrag.jobString>正在制作 破片 LGIS发射筒 x5。</MakeDLGISfrag.jobString>
+
+	<!-- EN: make HEAT tube x5 -->
+	<MakeDLGISheat.label>制作 破甲 LGIS发射筒 x5</MakeDLGISheat.label>
+	<!-- EN: Craft 5 HEAT tubes. -->
+	<MakeDLGISheat.description>制作 破甲 LGIS发射筒 x5。</MakeDLGISheat.description>
+	<!-- EN: Making HEAT tubes. -->
+	<MakeDLGISheat.jobString>正在制作 破甲 LGIS发射筒 x5。</MakeDLGISheat.jobString>
+
+	<!-- EN: make illumination tube x5 -->
+	<MakeDLGISillumination.label>制作 照明 LGIS发射筒 x5</MakeDLGISillumination.label>
+	<!-- EN: Craft 5 illumination tubes. -->
+	<MakeDLGISillumination.description>制作 照明 LGIS发射筒 x5。</MakeDLGISillumination.description>
+	<!-- EN: Making illumination tubes. -->
+	<MakeDLGISillumination.jobString>正在制作 照明 LGIS发射筒 x5。</MakeDLGISillumination.jobString>
+
+	<!-- EN: make incendiary tube x5 -->
+	<MakeDLGISincendiary.label>制作 燃烧 LGIS发射筒 x5</MakeDLGISincendiary.label>
+	<!-- EN: Craft 5 incendiary tubes. -->
+	<MakeDLGISincendiary.description>制作 燃烧 LGIS发射筒 x5。</MakeDLGISincendiary.description>
+	<!-- EN: Making incendiary tubes. -->
+	<MakeDLGISincendiary.jobString>正在制作 燃烧 LGIS发射筒 x5。</MakeDLGISincendiary.jobString>
+
+	<!-- EN: make minelayer tube x5 -->
+	<MakeDLGISMineLayer.label>正在制作 布雷 LGIS发射筒 x5。</MakeDLGISMineLayer.label>
+	<!-- EN: Craft 5 minelayer tubes. -->
+	<MakeDLGISMineLayer.description>正在制作 布雷 LGIS发射筒 x5。</MakeDLGISMineLayer.description>
+	<!-- EN: Making minelayer tubes. -->
+	<MakeDLGISMineLayer.jobString>正在制作 布雷 LGIS发射筒 x5。</MakeDLGISMineLayer.jobString>
+
+	<!-- EN: make minelayer tube with ADM -->
+	<MakeDLGISMineLayerfromADM.label>使用ADM制作 布雷 LGIS发射筒 x1。</MakeDLGISMineLayerfromADM.label>
+	<!-- EN: Craft a minelayer tube with existing ADM mines. -->
+	<MakeDLGISMineLayerfromADM.description>用已有的ADM制作 布雷 LGIS发射筒 x1。</MakeDLGISMineLayerfromADM.description>
+	<!-- EN: Making minelayer tubes. -->
+	<MakeDLGISMineLayerfromADM.jobString>正在制作 布雷 LGIS发射筒 x1。</MakeDLGISMineLayerfromADM.jobString>
+
+	<!-- EN: make nuclear tube x5 -->
+	<MakeDLGISnuke.label>制作 核 LGIS发射筒 x5</MakeDLGISnuke.label>
+	<!-- EN: Craft 5 nuclear tubes. -->
+	<MakeDLGISnuke.description>制作 核 LGIS发射筒 x5。</MakeDLGISnuke.description>
+	<!-- EN: Making nuclear tubes. -->
+	<MakeDLGISnuke.jobString>正在制作 核 LGIS发射筒 x5。</MakeDLGISnuke.jobString>
+
+	<!-- EN: make smoke tube x5 -->
+	<MakeDLGISsmoke.label>制作 烟雾 LGIS发射筒 x5</MakeDLGISsmoke.label>
+	<!-- EN: Craft 5 smoke tubes. -->
+	<MakeDLGISsmoke.description>制作 烟雾 LGIS发射筒 x5。</MakeDLGISsmoke.description>
+	<!-- EN: Making smoke tubes. -->
+	<MakeDLGISsmoke.jobString>正在制作 烟雾 LGIS发射筒 x5。</MakeDLGISsmoke.jobString>
+
+	<!-- EN: make thermobaric tube x5 -->
+	<MakeDLGISthermobaric.label>制作 温压 LGIS发射筒 x5</MakeDLGISthermobaric.label>
+	<!-- EN: Craft 5 thermobaric tubes. -->
+	<MakeDLGISthermobaric.description>制作 温压 LGIS发射筒 x5。</MakeDLGISthermobaric.description>
+	<!-- EN: Making thermobaric tubes. -->
+	<MakeDLGISthermobaric.jobString>正在制作 温压 LGIS发射筒 x5。</MakeDLGISthermobaric.jobString>
+
+	<!-- EN: make toxic tube x5 -->
+	<MakeDLGIStoxic.label>制作 毒气 LGIS发射筒 x5</MakeDLGIStoxic.label>
+	<!-- EN: Craft 5 toxic tubes. -->
+	<MakeDLGIStoxic.description>制作 毒气 LGIS发射筒 x5。</MakeDLGIStoxic.description>
+	<!-- EN: Making toxic tubes. -->
+	<MakeDLGIStoxic.jobString>正在制作 毒气 LGIS发射筒 x5。</MakeDLGIStoxic.jobString>
+
+</LanguageData>

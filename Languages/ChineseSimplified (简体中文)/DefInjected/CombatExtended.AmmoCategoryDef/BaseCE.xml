@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: AP Railgun -->
+  <BDRG_RailgunAP.label>穿墙磁轨弹</BDRG_RailgunAP.label>
+  <!-- EN: Uses a discarding sabot to fire an undersized projectile at higher muzzle velocities, greatly improving armor penetration. This projectile has been reinforced to survive after penetrating buildings, but as a result they're too stable to cause significant wounds. -->
+  <BDRG_RailgunAP.description>加强的磁轨弹头，更容易穿透建筑也更能保持穿透后的弹道稳定性。但是造成伤害较低。</BDRG_RailgunAP.description>
+  <!-- EN: AP -->
+  <BDRG_RailgunAP.labelShort>穿墙</BDRG_RailgunAP.labelShort>
+  
+  <!-- EN: SAPHE Railgun -->
+  <BDRG_RailgunSAPHE.label>半穿甲高爆磁轨</BDRG_RailgunSAPHE.label>
+  <!-- EN: Uses a discarding sabot to fire an undersized projectile at higher muzzle velocities, greatly improving armor penetration. This projectile is fitted with explosive charge and delayed fuse, for detonating after penetrating cover. -->
+  <BDRG_RailgunSAPHE.description>带有少量爆炸装药和延迟碰撞引信的磁轨弹，在穿透物体数毫秒后起爆。</BDRG_RailgunSAPHE.description>
+  <!-- EN: SAPHE -->
+  <BDRG_RailgunSAPHE.labelShort>半穿甲高爆</BDRG_RailgunSAPHE.labelShort>
+  
+</LanguageData>

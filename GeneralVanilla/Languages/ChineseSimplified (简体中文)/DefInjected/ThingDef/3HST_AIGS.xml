@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 40mm Hi-V grenade -->
+  <Bullet_3HST40mmGrenade_HE.label>3HST制40mm箭型弹榴弹</Bullet_3HST40mmGrenade_HE.label>
+  
+  <!-- EN: 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade.label>3HST制自动曲射榴弹系统</Gun_3HST_AutoGrenade.label>
+  <!-- EN: A automatic grenade launcher designed to fire at a high angle, raining grenade from above. -->
+  <Gun_3HST_AutoGrenade.description>一个设计用于高角度曲射的自动榴弹发射器，能够从远处向目标倾泻榴弹。</Gun_3HST_AutoGrenade.description>
+  <!-- EN: Rail durability -->
+  <Gun_3HST_AutoGrenade.comps.CompChangeBarrel.label>磁轨寿命</Gun_3HST_AutoGrenade.comps.CompChangeBarrel.label>
+  <!-- EN: stock -->
+  <Gun_3HST_AutoGrenade.tools.stock.label>枪托</Gun_3HST_AutoGrenade.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_3HST_AutoGrenade.tools.barrel.label>枪管</Gun_3HST_AutoGrenade.tools.barrel.label>
+  <!-- EN: 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade.verbs.Verb_ShootNotUnderRoofByBarrel.label>TODO</Gun_3HST_AutoGrenade.verbs.Verb_ShootNotUnderRoofByBarrel.label>
+  
+  <!-- UNUSED -->
+  <Gun_3HST_AutoGrenade.tools.2.label>枪口</Gun_3HST_AutoGrenade.tools.2.label>
+  
+  <!-- EN: Mounted 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade_Turret.label>3HST自动曲射榴弹系统（炮塔用）</Gun_3HST_AutoGrenade_Turret.label>
+  <!-- EN: 3HST automatic indirect grenade system on a stationary emplacement. -->
+  <Gun_3HST_AutoGrenade_Turret.description>安装在炮塔上的3HST自动曲射榴弹系统。</Gun_3HST_AutoGrenade_Turret.description>
+  <!-- EN: Mounted 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade_Turret.verbs.Verb_ShootNotUnderRoof.label>TODO</Gun_3HST_AutoGrenade_Turret.verbs.Verb_ShootNotUnderRoof.label>
+  
+  <!-- EN: Mounted 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade_Turret_Auto.label>3HST自动曲射榴弹系统（炮塔用）</Gun_3HST_AutoGrenade_Turret_Auto.label>
+  <!-- EN: 3HST automatic indirect grenade system on a stationary emplacement. -->
+  <Gun_3HST_AutoGrenade_Turret_Auto.description>安装在炮塔上的3HST自动曲射榴弹系统。</Gun_3HST_AutoGrenade_Turret_Auto.description>
+  <!-- EN: Mounted 3HST automatic indirect grenade system -->
+  <Gun_3HST_AutoGrenade_Turret_Auto.verbs.Verb_ShootNotUnderRoof.label>TODO</Gun_3HST_AutoGrenade_Turret_Auto.verbs.Verb_ShootNotUnderRoof.label>
+  
+  <!-- EN: Auto 3HST automatic indirect grenade system turret -->
+  <Turret_3HSTAIGSAuto.label>自动曲射榴弹系统炮塔</Turret_3HSTAIGSAuto.label>
+  <!-- EN: A permanent defensive structure covered under thick steel armor reinforced by a layer of plasteel surface hardening. While extremely durable and resilent to all but EMP attacks, they're costly to build both in terms of material and time, and being unable to move after construction. -->
+  <Turret_3HSTAIGSAuto.description>一部装在自动炮塔上的3HST自动曲射榴弹发射器，厚重的装甲保护着内部结构，但是也使得这个炮塔一旦完工就再也无法移动。</Turret_3HSTAIGSAuto.description>
+  <!-- EN: Recharge power consumption -->
+  <Turret_3HSTAIGSAuto.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_3HSTAIGSAuto.comps.CompPowerTrader_ForTurretGun.rechargePower>
+  <!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+  <Turret_3HSTAIGSAuto.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_3HSTAIGSAuto.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+  <!-- EN: Rail durability -->
+  <Turret_3HSTAIGSAuto.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_3HSTAIGSAuto.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until accelerator rail change -->
+  <Turret_3HSTAIGSAuto.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_3HSTAIGSAuto.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new accelerator rail -->
+  <Turret_3HSTAIGSAuto.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_3HSTAIGSAuto.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Manned 3HST automatic indirect grenade system -->
+  <Turret_3HSTAIGSmanned.label>手动自动曲射榴弹系统炮塔</Turret_3HSTAIGSmanned.label>
+  <!-- EN: A 3HST automatic indirect grenade system mounted on a turret mount. -->
+  <Turret_3HSTAIGSmanned.description>一门安装在三脚架上面的3HST自动曲射榴弹系统。</Turret_3HSTAIGSmanned.description>
+  <!-- EN: Recharge power consumption -->
+  <Turret_3HSTAIGSmanned.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_3HSTAIGSmanned.comps.CompPowerTrader_ForTurretGun.rechargePower>
+  <!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+  <Turret_3HSTAIGSmanned.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_3HSTAIGSmanned.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+  <!-- EN: Rail durability -->
+  <Turret_3HSTAIGSmanned.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_3HSTAIGSmanned.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until accelerator rail change -->
+  <Turret_3HSTAIGSmanned.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_3HSTAIGSmanned.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new accelerator rail -->
+  <Turret_3HSTAIGSmanned.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_3HSTAIGSmanned.comps.CompRefuelable.outOfFuelMessage>
+  
+</LanguageData>

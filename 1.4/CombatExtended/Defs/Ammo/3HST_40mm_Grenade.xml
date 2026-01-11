@@ -64,7 +64,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Bullet_3HST40mmGrenade_HE</defName>
 		<label>3HST 40mm grenade</label>
 		<thingClass>BillDoorsFramework.Projectile_HeightFuseCE</thingClass>
@@ -97,7 +97,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Bullet_3HST40mmGrenade_HE_D</defName>
 		<label>3HST 40mm grenade</label>
 		<thingClass>CombatExtended.ProjectileCE_Bursting</thingClass>
@@ -125,7 +125,7 @@
 	</ThingDef>
 
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
 		<defName>MakeAmmo_3HST40mmGrenade_HE</defName>
 		<label>make 40x53mm HE grenades x100</label>
 		<description>Craft 100 40x53mm HE grenades.</description>

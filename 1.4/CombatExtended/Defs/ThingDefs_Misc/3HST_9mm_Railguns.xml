@@ -36,7 +36,7 @@
 				<range>86</range>
 				<soundCast>RG_9mm</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<recoilAmount>0</recoilAmount>
+				<recoilAmount>5.14</recoilAmount>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<ai_AvoidFriendlyFireRadius>1</ai_AvoidFriendlyFireRadius>
 			</li>
@@ -648,7 +648,7 @@
 				<range>85</range>
 				<soundCast>RG_9mm</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<recoilAmount>0</recoilAmount>
+				<recoilAmount>2.14</recoilAmount>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<ai_AvoidFriendlyFireRadius>1</ai_AvoidFriendlyFireRadius>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>

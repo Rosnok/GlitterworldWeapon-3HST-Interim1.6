@@ -48,6 +48,7 @@
 				<muzzleFlashScale>5</muzzleFlashScale>
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<circularError>5</circularError>
+				<recoilAmount>2</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
@@ -175,6 +176,7 @@
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<circularError>5</circularError>
 				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<recoilAmount>2</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
@@ -345,6 +347,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
+				<recoilAmount>0</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
@@ -517,6 +520,7 @@
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<muzzleFlashScale>16</muzzleFlashScale>
+				<recoilAmount>1</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
@@ -686,6 +690,7 @@
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<muzzleFlashScale>16</muzzleFlashScale>
+				<recoilAmount>0.5</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
@@ -740,5 +745,149 @@
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="Base3HSTStationaryTurret">
+		<defName>Turret_TTLGIS</defName>
+		<label>LGIS Catapult</label>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+		<uiIconPath>UI/Icons/Security/LGIS_Catapult</uiIconPath>
+		<graphicData>
+			<texPath>Things/Building/Turrets/LGIS_Catapult_Base</texPath>
+			<drawSize>5</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>102500</WorkToBuild>
+			<Mass>55</Mass>
+			<Bulk>70</Bulk>
+			<AimingAccuracy>0.5</AimingAccuracy>
+			<ShootingAccuracyTurret>0.5</ShootingAccuracyTurret>
+		</statBases>
+		<designatorDropdown>Group_LGIS_Launchers</designatorDropdown>
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False" />
+		<comps>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+				<rechargePowerConsumption>75000</rechargePowerConsumption>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<cooldownTime>4</cooldownTime>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nThe built-in capacitors of the rail-accelerator need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>50</fuelCapacity>
+				<fuelMultiplier>25</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li>
+				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_LGIS</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+		</comps>
+		<fillPercent>0.9</fillPercent>
+		<description>The LGIS catapult is a (relatively) low speed railgun designed to lob LGIS missiles at long distances.</description>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>200</Plasteel>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Resource_3HST_RailComponent>2</Resource_3HST_RailComponent>
+		</costList>
+		<specialDisplayRadius>52</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_TTLGIS</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>5</turretTopDrawSize>
+			<turretBurstCooldownTime>4</turretBurstCooldownTime>
+			<spawnedConceptLearnOpportunity>BDGW_LGIS</spawnedConceptLearnOpportunity>
 
+		</building>
+		<size>(3,3)</size>
+		<researchPrerequisites>
+			<li>CE_TurretHeavyWeapons</li>
+			<li>CE_AdvancedLaunchers</li>
+			<li>Research_3HST_ADV_LGIS</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>Gun_TTLGIS</defName>
+		<label>LGIS Catapult</label>
+		<description>The LGIS catapult is a (relatively) low speed railgun designed to lob LGIS missiles at long distances.</description>
+		<graphicData>
+			<texPath>Things/Building/Turrets/LGIS_Catapult_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<SightsEfficiency>2</SightsEfficiency>
+			<ShotSpread>0.4</ShotSpread>
+			<SwayFactor>2.25</SwayFactor>
+			<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BDsGlitterworldFaction3HST.Verb_ShootLGISCatapult</verbClass>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
+				<defaultProjectile>Projectile_70mmLGIS_Frag_TransTile</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<minRange>54</minRange>
+				<range>500</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<soundCast>RG_76mm</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<recoilAmount>2</recoilAmount>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>16</magazineSize>
+				<reloadTime>15.6</reloadTime>
+				<ammoSet>AmmoSet_70mmLGIS_TransTile</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>2</aimedBurstShotCount>
+				<aiAimMode>SuppressFire</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

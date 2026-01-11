@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<EffecterDef>
+		<defName>Effecter_BDRG_FlareDisruptor</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<scale>1</scale>
+				<color>255,117,108</color>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.35</positionLerpFactor>
+				<angle>0~20</angle>
+				<fleckDef>Fleck_BDRG_FlareGlare</fleckDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<scale>1</scale>
+				<color>255,117,108</color>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.35</positionLerpFactor>
+				<fleckDef>Fleck_BDRG_FlareGlow</fleckDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<fleckDef>Smoke</fleckDef>
+				<chancePerTick>0.01</chancePerTick>
+				<scale>0.6~1.1</scale>
+				<spawnLocType>OnSource</spawnLocType>
+				<absoluteAngle>true</absoluteAngle>
+				<angle>10~20</angle>
+				<speed>0.2~0.35</speed>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>BDRG_DisruptorEffectNoSmoke</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<!-- CAREFUL REORDERING ME! Index of this effect must match what's in CompDisruptorFlare -->
+				<fleckDef>DisruptorFlareGlow</fleckDef>
+				<chancePerTick>.2</chancePerTick>
+				<chancePeriodTicks>20</chancePeriodTicks>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(0, 0, 0.1)</positionOffset>
+				<rotation>0</rotation>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>BDRG_Empty</defName>
+		<children>
+		</children>
+	</EffecterDef>
+
+	<ThingDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Filth_Disruptor_LGIS</defName>
+		<label>Disruptor LGIS</label>
+		<thingClass>ThingWithComps</thingClass>
+		<drawerType>MapMeshOnly</drawerType>
+		<category>Filth</category>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<selectable>false</selectable>
+		<graphicData>
+			<texPath>BDF_none</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0</drawSize>
+		</graphicData>
+		<altitudeLayer>Skyfaller</altitudeLayer>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_DisruptorFlare">
+				<radius>7.9</radius>
+				<effecterDef>BDRG_DisruptorEffectNoSmoke</effecterDef>
+				<destroyWarningEffecterDef>BDRG_Empty</destroyWarningEffecterDef>
+			</li>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>14400</delayTicks>
+				<displayCountdownOnLabel>true</displayCountdownOnLabel>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_Flare">
+				<effecter>Effecter_BDRG_FlareDisruptor</effecter>
+				<destroyWarningEffecter>DisruptorDestroyWarning</destroyWarningEffecter>
+				<lifeTimeSec>240</lifeTimeSec>
+				<warningTimeSec>15</warningTimeSec>
+				<initHeight>10</initHeight>
+				<destroy>false</destroy>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(255,117,108,0)</glowColor>
+			</li>
+		</comps>
+		<alwaysHaulable>false</alwaysHaulable>
+		<pathCost>0</pathCost>
+	</ThingDef>
+</Defs>

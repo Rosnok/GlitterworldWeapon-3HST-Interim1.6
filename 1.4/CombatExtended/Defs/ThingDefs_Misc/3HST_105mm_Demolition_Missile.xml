@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef Name="Base105mmDemo" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Name="Base105mmDemo" ParentName="BaseBulletCE" Abstract="true">
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -12,6 +12,32 @@
 			<gravityFactor>40</gravityFactor>
 			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
 		</projectile>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketFlame</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>7</burstCount>
+				<thickness>3</thickness>
+				<scale>2</scale>
+				<cutoffTickRange>50~60</cutoffTickRange>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>2</burstCount>
+				<rotation>0~360</rotation>
+				<scale>2</scale>
+				<thickness>1</thickness>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+				<fleck>Fleck_BDsRocketSmoke</fleck>
+				<emissionInterval>0</emissionInterval>
+				<burstCount>1</burstCount>
+				<rotation>0~360</rotation>
+				<thickness>1</thickness>
+				<cutoffTickRange>60~240</cutoffTickRange>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="Base105mmDemo">

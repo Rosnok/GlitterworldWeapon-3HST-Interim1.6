@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lance\\Desktop\\Bill Doors\u0027 Glitterworld Weapon Pack 3HST limited corporation\\Source\\BDsGlitterworldFaction3HST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BDsGlitterworldFaction3HSTCE||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BDsGlitterworldFaction3HST||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BCD316-B91F-41B9-BB99-3C0CA88AFE1E}|BDsGlitterworldFaction3HST.csproj|c:\\users\\lance\\desktop\\bill doors\u0027 glitterworld weapon pack 3hst limited corporation\\source\\bdsglitterworldfaction3hst\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36BD137-C2E0-4BA2-908D-98FE6A58AC95}|BDsGlitterworldFaction3HSTCE\\BDsGlitterworldFaction3HSTCE.csproj|c:\\users\\lance\\desktop\\bill doors\u0027 glitterworld weapon pack 3hst limited corporation\\source\\bdsglitterworldfaction3hst\\bdsglitterworldfaction3hstce\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BDsGlitterworldFaction3HSTCE",
+              "DocumentMoniker": "C:\\Users\\Lance\\Desktop\\Bill Doors\u0027 Glitterworld Weapon Pack 3HST limited corporation\\Source\\BDsGlitterworldFaction3HST\\BDsGlitterworldFaction3HSTCE\\BDsGlitterworldFaction3HSTCE.csproj",
+              "RelativeDocumentMoniker": "BDsGlitterworldFaction3HSTCE\\BDsGlitterworldFaction3HSTCE.csproj",
+              "ToolTip": "C:\\Users\\Lance\\Desktop\\Bill Doors\u0027 Glitterworld Weapon Pack 3HST limited corporation\\Source\\BDsGlitterworldFaction3HST\\BDsGlitterworldFaction3HSTCE\\BDsGlitterworldFaction3HSTCE.csproj",
+              "RelativeToolTip": "BDsGlitterworldFaction3HSTCE\\BDsGlitterworldFaction3HSTCE.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T08:01:39.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BDsGlitterworldFaction3HST",
+              "DocumentMoniker": "C:\\Users\\Lance\\Desktop\\Bill Doors\u0027 Glitterworld Weapon Pack 3HST limited corporation\\Source\\BDsGlitterworldFaction3HST\\BDsGlitterworldFaction3HST.csproj",
+              "RelativeDocumentMoniker": "BDsGlitterworldFaction3HST.csproj",
+              "ToolTip": "C:\\Users\\Lance\\Desktop\\Bill Doors\u0027 Glitterworld Weapon Pack 3HST limited corporation\\Source\\BDsGlitterworldFaction3HST\\BDsGlitterworldFaction3HST.csproj",
+              "RelativeToolTip": "BDsGlitterworldFaction3HST.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T08:01:33.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

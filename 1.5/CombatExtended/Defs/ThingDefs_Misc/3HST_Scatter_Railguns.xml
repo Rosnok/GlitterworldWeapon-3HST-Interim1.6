@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="Base3HSTShortGun">
+		<defName>Gun_3HST_Scatter_Railgun</defName>
+		<label>3HST "NCQ Sprayer" Scatterailgun</label>
+		<description>A pistol-sized high-caliber scatterailgun developed by 3HST Limited during the Third Elven Civil War, also capable of launching a variety of grenades.</description>
+		<graphicData>
+			<texPath>Things/Weapons/3HST_DWR_07_NCQ_Sprayer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>43000</WorkToMake>
+			<Mass>2.5</Mass>
+			<Bulk>3.1</Bulk>
+			<SwayFactor>2.87</SwayFactor>
+			<ShotSpread>0.15</ShotSpread>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>CE_Sidearm</li>
+			<li>CE_OneHandedWeapon</li>
+			<li>3HST_Sidearm</li>
+			<li>CE_AI_BROOM</li>
+			<li>ShortShots</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Resource_3HST_RailComponent>2</Resource_3HST_RailComponent>
+		</costList>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BDsGlitterworldFaction3HST.Verb_ShootByBarrel</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>25</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilAmount>8.55</recoilAmount>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>0.8,0.8</DrawSize>
+				<DrawOffset>-0.10,-0.07</DrawOffset>
+
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>0,0.3</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>4</magazineSize>
+				<reloadTime>4</reloadTime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+			<li Class="BDsGlitterworldFaction3HST.CompProperties_ChangeBarrel">
+				<durability>125</durability>
+				<label>Rail durability</label>
+				<loadingAmount>125</loadingAmount>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+				</concepts>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTLongGun">
+		<defName>Gun_3HST_Scatter_Railgun_Heavy</defName>
+		<label>3HST "NCQ Spammer" Scatterailgun</label>
+		<description>A Machinegun-sized automatic scatterailgun developed by 3HST Limited during the Third Elven Civil War, also capable of launching a variety of grenades. Half shotgun, half machinegun, complete slaughter.</description>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<graphicData>
+			<texPath>Things/Weapons/3HST_IWR_22_NCQ_Spammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.18</drawSize>
+		</graphicData>
+		<generateCommonality>0.6</generateCommonality>
+		<statBases>
+			<WorkToMake>79000</WorkToMake>
+			<Mass>12.2</Mass>
+			<Bulk>14.7</Bulk>
+			<SwayFactor>1.8</SwayFactor>
+			<ShotSpread>0.13</ShotSpread>
+			<SightsEfficiency>1.1</SightsEfficiency>
+			<RangedWeapon_Cooldown>0.57</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>CE_MachineGun</li>
+			<li>3HST_NCQSH</li>
+			<li>ShortShots</li>
+			<li>Bipod_LMG</li>
+		</weaponTags>
+		<costList>
+			<Steel>70</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Resource_3HST_RailComponent>4</Resource_3HST_RailComponent>
+		</costList>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BDsGlitterworldFaction3HST.Verb_ShootByBarrel</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<range>44</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<recoilAmount>1.55</recoilAmount>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.18,1.18</DrawSize>
+				<DrawOffset>0.00,-0.03</DrawOffset>
+
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>-0.25,0.03</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>15</magazineSize>
+				<reloadTime>7.7</reloadTime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>3</aimedBurstShotCount>
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+			<li Class="BDsGlitterworldFaction3HST.CompProperties_ChangeBarrel">
+				<durability>250</durability>
+				<label>Rail durability</label>
+				<loadingAmount>125</loadingAmount>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+				</concepts>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTLongGun">
+		<defName>Gun_3HST_Scatter_Railgun_Pump</defName>
+		<label>3HST "NCQ Splasher" Scatterailgun</label>
+		<description>A old school pump action scatterailgun developed by 3HST Limited during the Third Elven Civil War, a popular choice for mafia-themed joywire recordings.</description>
+		<graphicData>
+			<texPath>Things/Weapons/3HST_IWR_21</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.18</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>5.2</Mass>
+			<Bulk>10.2</Bulk>
+			<SwayFactor>1.32</SwayFactor>
+			<ShotSpread>0.15</ShotSpread>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<RangedWeapon_Cooldown>0.96</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>3HST_NCQSP</li>
+			<li>ShortShots</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Resource_3HST_RailComponent>3</Resource_3HST_RailComponent>
+		</costList>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BDsGlitterworldFaction3HST.Verb_ShootByBarrel</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>44</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilAmount>2.22</recoilAmount>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.18,1.18</DrawSize>
+				<DrawOffset>0.00,-0.03</DrawOffset>
+
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>-0.22,0.06</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>6</magazineSize>
+				<reloadTime>0.65</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+			<li Class="BDsGlitterworldFaction3HST.CompProperties_ChangeBarrel">
+				<durability>250</durability>
+				<label>Rail durability</label>
+				<loadingAmount>125</loadingAmount>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+				</concepts>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTLongGun">
+		<defName>Gun_3HST_Scatter_Railgun_SuperHeavy</defName>
+		<label>3HST "NCQ Suppressor" Scatterailgun</label>
+		<description>A HMG-sized automatic scatterailgun, usually wielded by power armor soldiers, installed on vehicles as an automatic grenade launcher or mounted in pairs as main guns of IFVs.</description>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<graphicData>
+			<texPath>Things/Weapons/BDRG_ScatterHeavy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.35</drawSize>
+		</graphicData>
+		<generateCommonality>0.3</generateCommonality>
+		<statBases>
+			<WorkToMake>185000</WorkToMake>
+			<Mass>24.4</Mass>
+			<Bulk>18.5</Bulk>
+			<SwayFactor>3.5</SwayFactor>
+			<ShotSpread>0.13</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>0.57</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>CE_MachineGun</li>
+			<li>3HST_NCQSH</li>
+			<li>ShortShots</li>
+			<li>WarcasketVeteran</li>
+			<li>BDRG_Bipod_HVY</li>
+		</weaponTags>
+		<costList>
+			<Steel>90</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Resource_3HST_RailComponent>8</Resource_3HST_RailComponent>
+		</costList>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BDsGlitterworldFaction3HST.Verb_ShootByBarrel</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<burstShotCount>12</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<range>44</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<recoilAmount>1</recoilAmount>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.00,-0.1</DrawOffset>
+
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>-0.18,0.1</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>60</magazineSize>
+				<reloadTime>7.7</reloadTime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>6</aimedBurstShotCount>
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+			<li Class="BDsGlitterworldFaction3HST.CompProperties_ChangeBarrel">
+				<durability>500</durability>
+				<label>Rail durability</label>
+				<loadingAmount>125</loadingAmount>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+				</concepts>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Turret manned-->
+	<ThingDef ParentName="Base3HSTTurretGun" Name="Base3HSTscatterailTurretGun" Abstract="true">
+		<label>Mounted 3HST heavy scatterail</label>
+		<graphicData>
+			<texPath>Things/Building/Turrets/BDRG_ScatterHeavyTurretManned</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>3HST heavy scatterail on a stationary emplacement.</description>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<SwayFactor>1.2</SwayFactor>
+			<ShotSpread>0.13</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<burstShotCount>12</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<range>44</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<recoilAmount>1</recoilAmount>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>60</magazineSize>
+				<reloadTime>7.7</reloadTime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>6</aimedBurstShotCount>
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTscatterailTurretGun">
+		<defName>Gun_Scatterail_TurretManned</defName>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>0.05,-0.2</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Base3HSTscatterailTurretGun">
+		<defName>Gun_Scatterail_TurretAuto</defName>
+		<graphicData>
+			<texPath>Things/Building/Turrets/BDRG_ScatterHeavyTurretAuto</texPath>
+		</graphicData>
+		<statBases>
+			<SightsEfficiency>1.2</SightsEfficiency>
+		</statBases>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.3</CasingLifeTimeOverrideRange>
+				<CasingOffset>-0.05,-0.26</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+				<CasingAngleOffset>180</CasingAngleOffset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTMoveableMannedTurret">
+		<defName>Turret_3HSTScatterManned</defName>
+		<label>Manned heavy scatterailgun</label>
+		<uiIconPath>UI/Icons/Security/3HST_ScatterTurretM_Icon</uiIconPath>
+		<statBases>
+			<Mass>55</Mass>
+			<Bulk>70</Bulk>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>10</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+
+				<rechargePowerConsumption>5000</rechargePowerConsumption>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<cooldownTime>2</cooldownTime>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>500</fuelCapacity>
+				<fuelMultiplier>125</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.25</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+		</comps>
+		<description>A 3HST "NCQ Suppressor" heavy scatterailgun mounted on a stationary mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power.</description>
+		<costList>
+			<Steel>25</Steel>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>1</Gun_3HST_Scatter_Railgun_SuperHeavy>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<building>
+			<turretGunDef>Gun_Scatterail_TurretManned</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>2</turretTopDrawSize>
+			<turretBurstCooldownTime>2</turretBurstCooldownTime>
+		</building>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<Plasteel>12</Plasteel>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>1</Gun_3HST_Scatter_Railgun_SuperHeavy>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>Research_3HST_Scatterailgun</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<!--Turret auto-->
+	<ThingDef ParentName="Base3HSTStationaryTurret">
+		<defName>Turret_3HSTScatterAuto</defName>
+		<label>Auto heavy scatterailgun</label>
+		<graphicData>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<uiIconPath>UI/Icons/Security/3HST_ScatterTurretA_Icon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+				<rechargePowerConsumption>5000</rechargePowerConsumption>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<cooldownTime>2</cooldownTime>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>500</fuelCapacity>
+				<fuelMultiplier>125</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.25</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+		</comps>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<Steel>125</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>1</Gun_3HST_Scatter_Railgun_SuperHeavy>
+		</costList>
+		<building>
+			<turretGunDef>Gun_Scatterail_TurretAuto</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>2</turretTopDrawSize>
+			<turretBurstCooldownTime>2</turretBurstCooldownTime>
+		</building>
+		<size>(1,1)</size>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Steel>15</Steel>
+			<Plasteel>20</Plasteel>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>1</Gun_3HST_Scatter_Railgun_SuperHeavy>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>Research_3HST_Scatterailgun</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<!--Turret Heavy-->
+	<ThingDef ParentName="Base3HSTStationaryTurretHeavy">
+		<defName>Turret_3HSTScatterLarge</defName>
+		<label>Auto twin heavy scatterail</label>
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<description>A twin scatterail IFV turret on a reinforced turret base. Weapons like this are designed to suppress every window in a building.</description>
+		<uiIconPath>UI/Icons/Security/3HST_ScatterTurretD_Icon</uiIconPath>
+		<statBases>
+			<Mass>200</Mass>
+			<Bulk>70</Bulk>
+			<AimingAccuracy>0.8</AimingAccuracy>
+			<ShootingAccuracyTurret>2</ShootingAccuracyTurret>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+				<rechargePowerConsumption>2500</rechargePowerConsumption>
+				<cooldownTime>4</cooldownTime>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>1000</fuelCapacity>
+				<fuelMultiplier>125</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.25</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_RailPiercing</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+		</comps>
+		<costList>
+			<Plasteel>100</Plasteel>
+			<Steel>400</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>2</Gun_3HST_Scatter_Railgun_SuperHeavy>
+		</costList>
+		<building>
+			<turretGunDef>Gun_Scatterail_TurretTwin</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>2.5</turretTopDrawSize>
+			<turretBurstCooldownTime>4</turretBurstCooldownTime>
+		</building>
+		<size>(2,2)</size>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<ChunkSlagSteel>10</ChunkSlagSteel>
+			<Steel>50</Steel>
+			<Plasteel>50</Plasteel>
+			<Gun_3HST_Scatter_Railgun_SuperHeavy>2</Gun_3HST_Scatter_Railgun_SuperHeavy>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>Research_3HST_Scatterailgun</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTTurretGun">
+		<defName>Gun_Scatterail_TurretTwin</defName>
+		<label>Mounted twin 3HST heavy scatterail</label>
+		<graphicData>
+			<texPath>Things/Building/Turrets/BDRG_ScatterHeavyTurretTwin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>A pair of 3HST heavy scatterail on a stationary emplacement.</description>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<SwayFactor>1.2</SwayFactor>
+			<ShotSpread>0.13</ShotSpread>
+			<SightsEfficiency>1.2</SightsEfficiency>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>BillDoorsFramework.Verb_ShootCustomCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_ScatterRG_Heavy</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<burstShotCount>30</burstShotCount>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<range>44</range>
+				<soundCast>RG_20mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<recoilAmount>1</recoilAmount>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>360</magazineSize>
+				<reloadTime>7.7</reloadTime>
+				<ammoSet>AmmoSet_ScatterRG</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>10</aimedBurstShotCount>
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<AdvancedCasingVariables>true</AdvancedCasingVariables>
+				<CasingLifeTimeOverrideRange>0.4</CasingLifeTimeOverrideRange>
+				<CasingOffset>0.05,-0.2</CasingOffset>
+				<CasingSpeedOverrideRange>2~4</CasingSpeedOverrideRange>
+			</li>
+			<li Class="BillDoorsFramework.ModExtension_ProjOriginOffset">
+				<offsets>
+					<li>(0.2,0.5)</li>
+					<li>(-0.2,0.5)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

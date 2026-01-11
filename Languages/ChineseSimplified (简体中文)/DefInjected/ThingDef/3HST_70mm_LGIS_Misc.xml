@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ADM carrier thruster -->
+  <Fragment_AerialDeployedMineCasingC.label>布雷LGIS推进段</Fragment_AerialDeployedMineCasingC.label>
+  
+  <!-- EN: cluster missile casing -->
+  <Fragment_ClusterMissile_casingA.label>集束LGIS壳体</Fragment_ClusterMissile_casingA.label>
+  
+  <!-- EN: cluster missile casing -->
+  <Fragment_ClusterMissile_casingB.label>集束LGIS壳体</Fragment_ClusterMissile_casingB.label>
+  
+  <!-- EN: cluster missile thruster -->
+  <Fragment_ClusterMissile_casingC.label>集束LGIS推进段</Fragment_ClusterMissile_casingC.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiLarge.label>彩纸</Fragment_ConfettiLarge.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiMedium.label>彩纸</Fragment_ConfettiMedium.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiSmallB.label>彩纸</Fragment_ConfettiSmallB.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiSmallG.label>彩纸</Fragment_ConfettiSmallG.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiSmallR.label>彩纸</Fragment_ConfettiSmallR.label>
+  
+  <!-- EN: Confetti -->
+  <Fragment_ConfettiSmallY.label>彩纸</Fragment_ConfettiSmallY.label>
+  
+  <!-- EN: Explosive submunition -->
+  <Fragment_ExplosiveSubmunition.label>爆炸性分弹药</Fragment_ExplosiveSubmunition.label>
+  
+  <!-- EN: Explosive submunition -->
+  <Fragment_ExplosiveSubmunitionHiVelovity.label>爆炸性分弹药</Fragment_ExplosiveSubmunitionHiVelovity.label>
+  
+  <!-- EN: holodecoy missile casing -->
+  <Fragment_Holodecoy_casingA.label>诱饵LGIS壳体</Fragment_Holodecoy_casingA.label>
+  
+  <!-- EN: holodecoy missile casing -->
+  <Fragment_Holodecoy_casingB.label>诱饵LGIS壳体</Fragment_Holodecoy_casingB.label>
+  
+  <!-- EN: holodecoy missile thruster -->
+  <Fragment_Holodecoy_casingC.label>诱饵LGIS推进段</Fragment_Holodecoy_casingC.label>
+  
+  <!-- EN: LGIS missile thruster -->
+  <Fragment_LGISthruster.label>LGIS导弹推进段</Fragment_LGISthruster.label>
+  
+  <!-- EN: LGIS missile thruster -->
+  <Fragment_LGISthrusterAB.label>LGIS导弹推进段</Fragment_LGISthrusterAB.label>
+  
+  <!-- EN: Recursive submunition -->
+  <Fragment_RecursiveSubmunition.label>爆炸性分弹药</Fragment_RecursiveSubmunition.label>
+  
+  <!-- EN: Taunt -->
+  <Gun_Holodecoy.label>嘲讽</Gun_Holodecoy.label>
+  <!-- EN: A built-in loud speaker that attracts enemy aggression. -->
+  <Gun_Holodecoy.description>你追我，你追到我，我就让你嘿嘿嘿~</Gun_Holodecoy.description>
+  <!-- EN: Taunt -->
+  <Gun_Holodecoy.verbs.Verb_DoNothingCE.label>TODO</Gun_Holodecoy.verbs.Verb_DoNothingCE.label>
+  
+  <!-- EN: nothing -->
+  <Projectile_none.label>这里啥都没有</Projectile_none.label>
+  
+  <!-- EN: holographic decoy -->
+  <Turret_Holodecoy.label>全息诱饵</Turret_Holodecoy.label>
+  <!-- EN: A holographic decoy that attracts enemy aggression. It's internal battery lasts for 6 hours. -->
+  <Turret_Holodecoy.description>一个能吸引敌人注意的全息诱饵。内置电池能维持其运转六个小时。</Turret_Holodecoy.description>
+  <!-- EN: Power off in -->
+  <Turret_Holodecoy.comps.CompDestroyAfterDelay.countdownLabel>电量剩余：</Turret_Holodecoy.comps.CompDestroyAfterDelay.countdownLabel>
+  
+</LanguageData>

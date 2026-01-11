@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
-    <xpath>
-      /Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]
-    </xpath>
-    <value>
-      <weaponMoney>1000~3500</weaponMoney>
-    </value>
-  </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]
+		</xpath>
+		<value>
+			<weaponMoney>1000~3500</weaponMoney>
+		</value>
+	</Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>
-      /Defs/ThingDef[defName="Gun_3HST_Scatter_Railgun" or defName="Gun_3HST_Scatter_Railgun_Pump" or defName="Gun_3HST_Scatter_Railgun_Heavy"]
-    </xpath>
-    <value>
-      <recipeMaker>
-        <researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
-      </recipeMaker>
-    </value>
-  </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/ThingDef[defName="Gun_3HST_Scatter_Railgun" or defName="Gun_3HST_Scatter_Railgun_Pump" or defName="Gun_3HST_Scatter_Railgun_Heavy"]
+		</xpath>
+		<value>
+			<recipeMaker>
+				<researchPrerequisite>Research_3HST_Scatterailgun</researchPrerequisite>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="Empire"]/pawnGroupMakers/li[kindDef="Combat"]/options</xpath>
+		<value>
+			<Empire_Fighter_LGIS_Carrier>2</Empire_Fighter_LGIS_Carrier>
+		</value>
+	</Operation>
 </Patch>

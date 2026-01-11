@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<MuzzleFlash.MuzzleFlashDef>
+		<defName>BDRG_RailgunMF_small</defName>
+		<texture>MuzzleFlash/RailgunMF_small</texture>
+		<defaultSize>(1,1)</defaultSize>
+		<splits>(3,3)</splits>
+		<!--frames and variations-->
+		<drawOffsetMultiplier>(0.37,0)</drawOffsetMultiplier>
+		<duration>3</duration>
+		<!--How many ticks the flash animation lasts-->
+		<framesPerAnimation>3</framesPerAnimation>
+		<!--How many frames each animation has-->
+		<lightIntensity>1</lightIntensity>
+	</MuzzleFlash.MuzzleFlashDef>
+
+	<MuzzleFlash.MuzzleFlashDef>
+		<defName>BDRG_RPG</defName>
+		<texture>MuzzleFlash/RPGMF</texture>
+		<defaultSize>(1,1)</defaultSize>
+		<splits>(10,1)</splits>
+		<!--frames and variations-->
+		<drawOffsetMultiplier>(0.37,0)</drawOffsetMultiplier>
+		<duration>20</duration>
+		<!--How many ticks the flash animation lasts-->
+		<framesPerAnimation>10</framesPerAnimation>
+		<!--How many frames each animation has-->
+		<lightIntensity>1</lightIntensity>
+	</MuzzleFlash.MuzzleFlashDef>
+</Defs>

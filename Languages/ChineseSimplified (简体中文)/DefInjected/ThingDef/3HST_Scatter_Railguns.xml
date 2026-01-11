@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: 3HST "NCQ Sprayer" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun.label>3HST制轻型霰射磁轨“新重庆喷洒者”</Gun_3HST_Scatter_Railgun.label>
+	<!-- EN: A pistol-sized high-caliber scatterailgun developed by 3HST Limited during the Third Elven Civil War, also capable of launching a variety of grenades. -->
+	<Gun_3HST_Scatter_Railgun.description>一部3HST有限公司设计的便携大口径霰弹磁轨炮，同时也可发射一系列小口径榴弹，在第三次内战的无尽的废墟巷战中发光发热。但是内战结束后这个武器立刻失去了使用价值，现在多用于警用或者二三线部队清剿海盗和叛军时装备。</Gun_3HST_Scatter_Railgun.description>
+	<!-- EN: Rail durability -->
+	<Gun_3HST_Scatter_Railgun.comps.CompChangeBarrel.label>磁轨寿命</Gun_3HST_Scatter_Railgun.comps.CompChangeBarrel.label>
+	<!-- EN: grip -->
+	<Gun_3HST_Scatter_Railgun.tools.grip.label>手柄</Gun_3HST_Scatter_Railgun.tools.grip.label>
+	<!-- EN: muzzle -->
+	<Gun_3HST_Scatter_Railgun.tools.muzzle.label>枪口</Gun_3HST_Scatter_Railgun.tools.muzzle.label>
+	<!-- EN: energy bayonet blade -->
+	<Gun_3HST_Scatter_Railgun.tools.energy_bayonet_blade.label>能量刺刀刀刃</Gun_3HST_Scatter_Railgun.tools.energy_bayonet_blade.label>
+	<!-- EN: energy bayonet point -->
+	<Gun_3HST_Scatter_Railgun.tools.energy_bayonet_point.label>能量刺刀刀尖</Gun_3HST_Scatter_Railgun.tools.energy_bayonet_point.label>
+	<!-- EN: 3HST "NCQ Sprayer" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun.verbs.Verb_ShootByBarrel.label>TODO</Gun_3HST_Scatter_Railgun.verbs.Verb_ShootByBarrel.label>
+
+	<!-- EN: 3HST "NCQ Spammer" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_Heavy.label>3HST制速射霰射磁轨“新重庆覆盖者”</Gun_3HST_Scatter_Railgun_Heavy.label>
+	<!-- EN: A Machinegun-sized automatic scatterailgun developed by 3HST Limited during the Third Elven Civil War, also capable of launching a variety of grenades. Half shotgun, half machinegun, complete slaughter. -->
+	<Gun_3HST_Scatter_Railgun_Heavy.description>一部3HST有限公司设计的速射霰弹磁轨炮，同时也可发射一系列小口径榴弹。虽然威力强大但是对磁轨损伤比较严重。</Gun_3HST_Scatter_Railgun_Heavy.description>
+	<!-- EN: Rail durability -->
+	<Gun_3HST_Scatter_Railgun_Heavy.comps.CompChangeBarrel.label>磁轨寿命</Gun_3HST_Scatter_Railgun_Heavy.comps.CompChangeBarrel.label>
+	<!-- EN: stock -->
+	<Gun_3HST_Scatter_Railgun_Heavy.tools.stock.label>枪托</Gun_3HST_Scatter_Railgun_Heavy.tools.stock.label>
+	<!-- EN: barrel -->
+	<Gun_3HST_Scatter_Railgun_Heavy.tools.barrel.label>枪管</Gun_3HST_Scatter_Railgun_Heavy.tools.barrel.label>
+	<!-- EN: muzzle -->
+	<Gun_3HST_Scatter_Railgun_Heavy.tools.muzzle.label>枪口</Gun_3HST_Scatter_Railgun_Heavy.tools.muzzle.label>
+	<!-- EN: energy bayonet blade -->
+	<Gun_3HST_Scatter_Railgun_Heavy.tools.energy_bayonet_blade.label>能量刺刀刀刃</Gun_3HST_Scatter_Railgun_Heavy.tools.energy_bayonet_blade.label>
+	<!-- EN: energy bayonet point -->
+	<Gun_3HST_Scatter_Railgun_Heavy.tools.energy_bayonet_point.label>能量刺刀刀尖</Gun_3HST_Scatter_Railgun_Heavy.tools.energy_bayonet_point.label>
+	<!-- EN: 3HST "NCQ Spammer" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_Heavy.verbs.Verb_ShootByBarrel.label>TODO</Gun_3HST_Scatter_Railgun_Heavy.verbs.Verb_ShootByBarrel.label>
+
+	<!-- EN: 3HST "NCQ Splasher" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_Pump.label>3HST制泵动霰射磁轨“新重庆喷溅者”</Gun_3HST_Scatter_Railgun_Pump.label>
+	<!-- EN: A old school pump action scatterailgun developed by 3HST Limited during the Third Elven Civil War, a popular choice for mafia-themed joywire recordings. -->
+	<Gun_3HST_Scatter_Railgun_Pump.description>一把泵动磁轨霰弹。\n\n是的，你没看错，泵动、磁轨、霰弹。</Gun_3HST_Scatter_Railgun_Pump.description>
+	<!-- EN: Rail durability -->
+	<Gun_3HST_Scatter_Railgun_Pump.comps.CompChangeBarrel.label>磁轨寿命</Gun_3HST_Scatter_Railgun_Pump.comps.CompChangeBarrel.label>
+	<!-- EN: stock -->
+	<Gun_3HST_Scatter_Railgun_Pump.tools.stock.label>枪托</Gun_3HST_Scatter_Railgun_Pump.tools.stock.label>
+	<!-- EN: barrel -->
+	<Gun_3HST_Scatter_Railgun_Pump.tools.barrel.label>枪管</Gun_3HST_Scatter_Railgun_Pump.tools.barrel.label>
+	<!-- EN: muzzle -->
+	<Gun_3HST_Scatter_Railgun_Pump.tools.muzzle.label>枪口</Gun_3HST_Scatter_Railgun_Pump.tools.muzzle.label>
+	<!-- EN: energy bayonet blade -->
+	<Gun_3HST_Scatter_Railgun_Pump.tools.energy_bayonet_blade.label>能量刺刀刀刃</Gun_3HST_Scatter_Railgun_Pump.tools.energy_bayonet_blade.label>
+	<!-- EN: energy bayonet point -->
+	<Gun_3HST_Scatter_Railgun_Pump.tools.energy_bayonet_point.label>能量刺刀刀尖</Gun_3HST_Scatter_Railgun_Pump.tools.energy_bayonet_point.label>
+	<!-- EN: 3HST "NCQ Splasher" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_Pump.verbs.Verb_ShootByBarrel.label>TODO</Gun_3HST_Scatter_Railgun_Pump.verbs.Verb_ShootByBarrel.label>
+
+	<!-- EN: 3HST "NCQ Suppressor" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.label>3HST制重型霰射磁轨“新重庆压制者”</Gun_3HST_Scatter_Railgun_SuperHeavy.label>
+	<!-- EN: A HMG-sized automatic scatterailgun, usually wielded by power armor soldiers, installed on vehicles as an automatic grenade launcher or mounted in pairs as main guns of IFVs. -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.description>一把重机枪尺寸的速射霰射磁轨，设计用于一次压制一栋房子的每一扇窗户。这把武器通常被身着动力甲的机枪手使用，安装在载具上作为自动榴弹发射器，或者作为步战车的双联主炮。</Gun_3HST_Scatter_Railgun_SuperHeavy.description>
+	<!-- EN: Rail durability -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.comps.CompChangeBarrel.label>TODO</Gun_3HST_Scatter_Railgun_SuperHeavy.comps.CompChangeBarrel.label>
+	<!-- EN: stock -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.tools.stock.label>枪托</Gun_3HST_Scatter_Railgun_SuperHeavy.tools.stock.label>
+	<!-- EN: barrel -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.tools.barrel.label>枪身</Gun_3HST_Scatter_Railgun_SuperHeavy.tools.barrel.label>
+	<!-- EN: muzzle -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.tools.muzzle.label>枪口</Gun_3HST_Scatter_Railgun_SuperHeavy.tools.muzzle.label>
+	<!-- EN: energy bayonet blade -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.tools.energy_bayonet_blade.label>能量刺刀刀刃</Gun_3HST_Scatter_Railgun_SuperHeavy.tools.energy_bayonet_blade.label>
+	<!-- EN: energy bayonet point -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.tools.energy_bayonet_point.label>能量刺刀刀尖</Gun_3HST_Scatter_Railgun_SuperHeavy.tools.energy_bayonet_point.label>
+	<!-- EN: 3HST "NCQ Suppressor" Scatterailgun -->
+	<Gun_3HST_Scatter_Railgun_SuperHeavy.verbs.Verb_ShootByBarrel.label>TODO</Gun_3HST_Scatter_Railgun_SuperHeavy.verbs.Verb_ShootByBarrel.label>
+
+	<!-- EN: Mounted 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretAuto.label>3HST制重型霰射磁轨（炮塔用）</Gun_Scatterail_TurretAuto.label>
+	<!-- EN: 3HST heavy scatterail on a stationary emplacement. -->
+	<Gun_Scatterail_TurretAuto.description>安装在炮塔上的3HST重型霰射磁轨炮。</Gun_Scatterail_TurretAuto.description>
+	<!-- EN: Mounted 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretAuto.verbs.Verb_ShootCE.label>TODO</Gun_Scatterail_TurretAuto.verbs.Verb_ShootCE.label>
+
+	<!-- EN: Mounted 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretManned.label>3HST制重型霰射磁轨（炮塔用）</Gun_Scatterail_TurretManned.label>
+	<!-- EN: 3HST heavy scatterail on a stationary emplacement. -->
+	<Gun_Scatterail_TurretManned.description>安装在炮塔上的3HST重型霰射磁轨炮。</Gun_Scatterail_TurretManned.description>
+	<!-- EN: Mounted 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretManned.verbs.Verb_ShootCE.label>TODO</Gun_Scatterail_TurretManned.verbs.Verb_ShootCE.label>
+
+	<!-- EN: Mounted twin 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretTwin.label>双联3HST制重型霰射磁轨（炮塔用）</Gun_Scatterail_TurretTwin.label>
+	<!-- EN: A pair of 3HST heavy scatterail on a stationary emplacement. -->
+	<Gun_Scatterail_TurretTwin.description>安装在炮塔上的两门3HST重型霰射磁轨炮。</Gun_Scatterail_TurretTwin.description>
+	<!-- EN: Mounted twin 3HST heavy scatterail -->
+	<Gun_Scatterail_TurretTwin.verbs.Verb_ShootCE.label>TODO</Gun_Scatterail_TurretTwin.verbs.Verb_ShootCE.label>
+
+	<!-- EN: Auto heavy scatterailgun -->
+	<Turret_3HSTScatterAuto.label>固定 重型霰射磁轨炮塔</Turret_3HSTScatterAuto.label>
+	<!-- EN: A permanent defensive structure covered under thick steel armor reinforced by a layer of plasteel surface hardening. While extremely durable and resilent to all but EMP attacks, they're costly to build both in terms of material and time, and being unable to move after construction. -->
+	<Turret_3HSTScatterAuto.description>一部装在自动炮塔上的3HST制重型霰射磁轨，厚重的装甲保护着内部结构，但是也使得这个炮塔一旦完工就再也无法移动。</Turret_3HSTScatterAuto.description>
+	<!-- EN: Recharge power consumption -->
+	<Turret_3HSTScatterAuto.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_3HSTScatterAuto.comps.CompPowerTrader_ForTurretGun.rechargePower>
+	<!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+	<Turret_3HSTScatterAuto.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_3HSTScatterAuto.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+	<!-- EN: Rail durability -->
+	<Turret_3HSTScatterAuto.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_3HSTScatterAuto.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until accelerator rail change -->
+	<Turret_3HSTScatterAuto.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_3HSTScatterAuto.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new accelerator rail -->
+	<Turret_3HSTScatterAuto.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_3HSTScatterAuto.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Auto twin heavy scatterail -->
+	<Turret_3HSTScatterLarge.label>固定 双联重型霰射磁轨炮塔</Turret_3HSTScatterLarge.label>
+	<!-- EN: A twin scatterail IFV turret on a reinforced turret base. Weapons like this are designed to suppress every window in a building. -->
+	<Turret_3HSTScatterLarge.description>两门3HST制重型霰射磁轨被安装在步战车炮塔上，厚重的装甲保护着内部结构，但是也使得这个炮塔一旦完工就再也无法移动。</Turret_3HSTScatterLarge.description>
+	<!-- EN: Recharge power consumption -->
+	<Turret_3HSTScatterLarge.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_3HSTScatterLarge.comps.CompPowerTrader_ForTurretGun.rechargePower>
+	<!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+	<Turret_3HSTScatterLarge.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_3HSTScatterLarge.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+	<!-- EN: Rail durability -->
+	<Turret_3HSTScatterLarge.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_3HSTScatterLarge.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until accelerator rail change -->
+	<Turret_3HSTScatterLarge.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_3HSTScatterLarge.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new accelerator rail -->
+	<Turret_3HSTScatterLarge.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_3HSTScatterLarge.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Manned heavy scatterailgun -->
+	<Turret_3HSTScatterManned.label>手动重型霰射磁轨炮塔</Turret_3HSTScatterManned.label>
+	<!-- EN: A 3HST "NCQ Suppressor" heavy scatterailgun mounted on a stationary mount. Despite the fact this turret is manually operated, this turret still needs a amount of power to operate since railguns consumes power. -->
+	<Turret_3HSTScatterManned.description>一挺安装在三脚架上面的重型霰射磁轨炮。虽然是手动炮塔，但是由于磁轨炮需要供能的缘故所以还是需要电力才能工作。</Turret_3HSTScatterManned.description>
+	<!-- EN: Recharge power consumption -->
+	<Turret_3HSTScatterManned.comps.CompPowerTrader_ForTurretGun.rechargePower>每发所需充电电量</Turret_3HSTScatterManned.comps.CompPowerTrader_ForTurretGun.rechargePower>
+	<!-- EN: The amount of power the weapon will draw from the power grid during cool down.\n\nRailguns' built in capacitors need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd -->
+	<Turret_3HSTScatterManned.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>该炮塔每发射一发子弹，在发射后的冷却时间内会对电网抽取的电量。\n\n磁轨炮塔的内置电容器需要在每轮连射后充能，这将会导致一次短时间的耗电高峰。\n\n具体的每发充能电量为：功率 x 冷却时间 / 1000\n{0} W x {1} s / 1000 = {2} Wd</Turret_3HSTScatterManned.comps.CompPowerTrader_ForTurretGun.rechargePower_Stat>
+	<!-- EN: Rail durability -->
+	<Turret_3HSTScatterManned.comps.CompRefuelable.fuelGizmoLabel>磁轨寿命</Turret_3HSTScatterManned.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until accelerator rail change -->
+	<Turret_3HSTScatterManned.comps.CompRefuelable.fuelLabel>磁轨失效前剩余发射次数</Turret_3HSTScatterManned.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new accelerator rail -->
+	<Turret_3HSTScatterManned.comps.CompRefuelable.outOfFuelMessage>无法发射：需要更换磁轨</Turret_3HSTScatterManned.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

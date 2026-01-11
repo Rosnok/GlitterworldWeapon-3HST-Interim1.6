@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef>
+		<defName>Filth_Illumition_LGIS</defName>
+		<label>Illumination LGIS</label>
+		<thingClass>ThingWithComps</thingClass>
+		<drawerType>MapMeshOnly</drawerType>
+		<category>Filth</category>
+		<tickerType>Rare</tickerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>false</useHitPoints>
+		<selectable>false</selectable>
+		<graphicData>
+			<texPath>Things/Filth/3HST_IAA_12_LGIS_Missile_illumination_filth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>5</drawSize>
+			<shaderType>Transparent</shaderType>
+			<drawOffset>(0, 0, 3.5)</drawOffset>
+		</graphicData>
+		<altitudeLayer>Skyfaller</altitudeLayer>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(510,510,414,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<heatPerSecond>50</heatPerSecond>
+				<heatPushMaxTemperature>500</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>0.125</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_SpawnerFilth">
+				<filthDef>Filth_Illuminator_Ash</filthDef>
+				<spawnCountOnSpawn>3</spawnCountOnSpawn>
+				<spawnMtbHours>0.1</spawnMtbHours>
+				<spawnRadius>0.5</spawnRadius>
+			</li>
+		</comps>
+		<alwaysHaulable>false</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<pathCost>0</pathCost>
+	</ThingDef>
+</Defs>

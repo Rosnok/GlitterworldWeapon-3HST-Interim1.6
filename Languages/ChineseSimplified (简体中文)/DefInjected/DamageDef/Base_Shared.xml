@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bullet -->
+  <BDRG_HighCalRailgun.label>TODO</BDRG_HighCalRailgun.label>
+  <!-- EN: {0} has been shot to death. -->
+  <BDRG_HighCalRailgun.deathMessage>TODO</BDRG_HighCalRailgun.deathMessage>
+  
+  <!-- EN: shockwave -->
+  <DamageDef_Shockwave.label>冲击波</DamageDef_Shockwave.label>
+  <!-- EN: {0} has died from impact shockwave. -->
+  <DamageDef_Shockwave.deathMessage>{0}被冲击波打碎了。</DamageDef_Shockwave.deathMessage>
+  
+</LanguageData>

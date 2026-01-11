@@ -1,28 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ResearchProjectDef>
-    <defName>Research_3HST_Scatterailgun</defName>
-    <label>3HST Scatterailguns</label>
-    <description>Allows production of scatterailguns, high caliber low power railguns designed to fire buckshot and grenades.</description>
-    <baseCost>5000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>Research_3HST_Railgun</li>
-    </prerequisites>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <techprintCount>1</techprintCount>
-    <techprintCommonality>0.2</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>17.00</researchViewX>
-    <researchViewY>5.8</researchViewY>
-    <heldByFactionCategoryTags>
-      <li>Empire</li>
-      <li>Outlander</li>
-    </heldByFactionCategoryTags>
-  </ResearchProjectDef>
-
-
 </Defs>

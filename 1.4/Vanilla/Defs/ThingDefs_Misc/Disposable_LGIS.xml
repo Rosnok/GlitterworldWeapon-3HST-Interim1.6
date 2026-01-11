@@ -569,7 +569,6 @@
 				<burstShotCount />
 				<range>45</range>
 				<minRange>10</minRange>
-				<forcedMissRadius>3</forcedMissRadius>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>

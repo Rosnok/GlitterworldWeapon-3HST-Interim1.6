@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="Base3HSTMoveableMannedTurret">
+		<defName>Turret_DualLGIS_ID</defName>
+		<label>dual LGIS turret</label>
+		<thingClass>BillDoorsFramework.Building_TurretGunWithGizmo</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<texPath>Things/Building/Turrets/3HST_Small_Turret_Base</texPath>
+		</graphicData>
+		<uiIconPath>UI/Icons/Security/3HST_DLGIS_icon</uiIconPath>
+		<statBases>
+			<WorkToBuild>6600</WorkToBuild>
+			<Mass>30</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_LGIS</li>
+				</concepts>
+			</li>
+			<li>
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI_TurretInterface</compClass>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<designatorDropdown>Group_LGIS_Launchers</designatorDropdown>
+		<techLevel>Spacer</techLevel>
+		<description>A multiple rocket launcher capable of holding and firing 2 LGIS missiles.\n\nThis simple launcher does not come with rail accelerators and solely depends on the propellant charge in the casing to fire. While range remain unchanged, this launcher allows deploying LGIS missiles in ready to use emplacements at important positions.</description>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<building>
+			<turretGunDef>Gun_DualLGIS_ID</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+			<spawnedConceptLearnOpportunity>BDGW_LGIS</spawnedConceptLearnOpportunity>
+			<turretBurstWarmupTime>3.4</turretBurstWarmupTime>
+			<turretBurstCooldownTime>5</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>Gun_DualLGIS_ID</defName>
+		<label>dual LGIS missile launcher</label>
+		<description>A multiple rocket launcher capable of holding and firing 2 LGIS missiles.\n\nThis simple launcher does not come with rail accelerators and solely depends on the propellant charge in the casing to fire. While range remain unchanged, this launcher allows deploying LGIS missiles in ready to use emplacements at important positions.</description>
+		<graphicData>
+			<texPath>Things/Building/Turrets/3HST_XML_26_DualLGISL</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoof</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<forcedMissRadius>3</forcedMissRadius>
+				<range>45</range>
+				<minRange>10</minRange>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_ChangeableProjectileMagazine">
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI</compClass>
+				<magazineSize>2</magazineSize>
+				<reloadTicks>200</reloadTicks>
+			</li>
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Gun3HSTDisposable</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Gun_3HST_LGIS_frag</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTStationaryTurretHeavy">
+		<defName>Turret_MLGIS</defName>
+		<label>Multiple LGIS Launcher</label>
+		<thingClass>BillDoorsFramework.Building_TurretGunWithGizmo</thingClass>
+		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+			<texPath>Things/Building/Turrets/3HST_Turret_Heavy/3HST_Heavy_Turret_Base</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<uiIconPath>UI/Icons/Security/3HST_MLGIS_icon</uiIconPath>
+		<statBases>
+			<WorkToBuild>150000</WorkToBuild>
+			<Mass>1000</Mass>
+			<ShootingAccuracyTurret>0.5</ShootingAccuracyTurret>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+		<designatorDropdown>Group_LGIS_Launchers</designatorDropdown>
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False" />
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1500</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+				<rechargePowerConsumption>10000</rechargePowerConsumption>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<cooldownTime>10</cooldownTime>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nThe built-in capacitors of the rail-accelerator need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>50</fuelCapacity>
+				<fuelMultiplier>50</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_LGIS</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+			<li>
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI_TurretInterface</compClass>
+			</li>
+		</comps>
+		<fillPercent>0.9</fillPercent>
+		<description>A multiple rocket launcher capable of holding and firing 27 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+		<costList>
+			<Steel>1150</Steel>
+			<Plasteel>385</Plasteel>
+			<ComponentIndustrial>13</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Resource_3HST_RailComponent>7</Resource_3HST_RailComponent>
+		</costList>
+		<specialDisplayRadius>10</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_MLGIS</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>2.5</turretTopDrawSize>
+			<spawnedConceptLearnOpportunity>BDGW_LGIS</spawnedConceptLearnOpportunity>
+
+			<turretBurstWarmupTime>3.4</turretBurstWarmupTime>
+			<turretBurstCooldownTime>10</turretBurstCooldownTime>
+		</building>
+		<size>(2,2)</size>
+		<researchPrerequisites>
+			<li>RocketswarmLauncher</li>
+			<li>Mortars</li>
+			<li>Research_3HST_ADV_LGIS</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>Gun_MLGIS</defName>
+		<label>multiple LGIS missile launcher</label>
+		<description>A multiple rocket launcher capable of holding and firing 27 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+		<graphicData>
+			<texPath>Things/Building/Turrets/3HST_XML_25_MLGISL</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoof</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<forcedMissRadius>6</forcedMissRadius>
+				<range>52.4</range>
+				<minRange>10</minRange>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_ChangeableProjectileMagazine">
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI</compClass>
+				<magazineSize>27</magazineSize>
+				<stageCount IgnoreIfNoMatchingField="True">5.4</stageCount>
+				<reloadTicks>300</reloadTicks>
+			</li>
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Gun3HSTDisposable</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Gun_3HST_LGIS_frag</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="Base3HSTStationaryTurret">
+		<defName>Turret_HLGIS</defName>
+		<label>Hexa-LGIS Launcher</label>
+		<thingClass>BillDoorsFramework.Building_TurretGunWithGizmo</thingClass>
+		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+		<uiIconPath>UI/Icons/Security/3HST_HLGIS_icon</uiIconPath>
+		<statBases>
+			<WorkToBuild>37500</WorkToBuild>
+			<Mass>250</Mass>
+			<ShootingAccuracyTurret>0.5</ShootingAccuracyTurret>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+		<designatorDropdown>Group_LGIS_Launchers</designatorDropdown>
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False" />
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>300</basePowerConsumption>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_PowerTurretGun">
+				<rechargePowerConsumption>10000</rechargePowerConsumption>
+				<rechargePower>Recharge power consumption</rechargePower>
+				<cooldownTime>10</cooldownTime>
+				<rechargePower_Stat>The amount of power the weapon will draw from the power grid during cool down.\n\nThe built-in capacitors of the rail-accelerator need to be recharged after each salvo, leading to a power consumption spike.\n\nThe power consumption is calculated as: Power draw x Turret cooldown / 1000\n{0} W x {1} s / 1000 = {2} Wd</rechargePower_Stat>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until accelerator rail change</fuelLabel>
+				<fuelGizmoLabel>Rail durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new accelerator rail</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Resource_3HST_RailComponent</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>12</fuelCapacity>
+				<fuelMultiplier>12</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/Resource_3HST_RailComponent</fuelIconPath>
+			</li>
+			<li Class="BillDoorsFramework.CompProperties_ShowConcept">
+				<concepts>
+					<li>BDGW_RailRearm</li>
+					<li>BDGW_LGIS</li>
+					<li>BDGW_Turret</li>
+				</concepts>
+			</li>
+			<li>
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI_TurretInterface</compClass>
+			</li>
+		</comps>
+		<fillPercent>0.9</fillPercent>
+		<description>A multiple rocket launcher capable of holding and firing 6 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+		<costList>
+			<Steel>260</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Resource_3HST_RailComponent>2</Resource_3HST_RailComponent>
+		</costList>
+		<building>
+			<turretGunDef>Gun_HLGIS</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>1.25</turretTopDrawSize>
+			<spawnedConceptLearnOpportunity>BDGW_LGIS</spawnedConceptLearnOpportunity>
+
+			<turretBurstWarmupTime>3.4</turretBurstWarmupTime>
+			<turretBurstCooldownTime>10</turretBurstCooldownTime>
+		</building>
+		<size>(1,1)</size>
+		<researchPrerequisites>
+			<li>RocketswarmLauncher</li>
+			<li>Mortars</li>
+			<li>Research_3HST_ADV_LGIS</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>Gun_HLGIS</defName>
+		<label>hexa LGIS missile launcher</label>
+		<description>A multiple rocket launcher capable of holding and firing 6 LGIS missiles.  Built-in low-power rail accelerator gives missile greater range.</description>
+		<graphicData>
+			<texPath>Things/Building/Turrets/3HST_HLGIS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoof</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<forcedMissRadius>6</forcedMissRadius>
+				<range>52.4</range>
+				<minRange>10</minRange>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="BillDoorsFramework.CompProperties_ChangeableProjectileMagazine">
+				<compClass>BillDoorsFramework.CompChangeableProjectileMagazineI</compClass>
+				<magazineSize>6</magazineSize>
+				<reloadTicks>200</reloadTicks>
+			</li>
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Gun3HSTDisposable</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>Gun_3HST_LGIS_frag</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+</Defs>
