@@ -152,3 +152,9 @@ C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corpora
 C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.csproj.CoreCompileInputs.cache
 C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.dll
 C:\Users\Lance\Desktop\Bill Doors' Glitterworld Weapon Pack 3HST limited corporation\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.pdb
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\1.5\Vanilla\Assemblies\BDsGlitterworldFaction3HST.dll
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\1.5\Vanilla\Assemblies\BDsGlitterworldFaction3HST.pdb
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.csproj.AssemblyReference.cache
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.csproj.CoreCompileInputs.cache
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.dll
+C:\Users\Lance\Documents\GitHub\GlitterworldWeapon-3HST-Interim1.6\Source\BDsGlitterworldFaction3HST\obj\Debug\BDsGlitterworldFaction3HST.pdb
